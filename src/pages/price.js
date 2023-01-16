@@ -92,19 +92,19 @@ const price = ({ data }) => {
                 <dd>指定のご飯（牧草・ペレット）がある場合はご持参してください。</dd>
                 <dt className="qa01">当日の予約は可能ですか？</dt>
                 <dd>基本的に可能です。予約状況によりお断りさせていただく場合がございます。</dd>
-              <dt className="qa01">ケージの持ち込みは可能ですか？</dt>
-              <dd>ケージの持ち込みはご遠慮ください。</dd>
-              <dt className="qa01">宿泊延長は可能ですか？</dt>
-              <dd>満室でなければ可能です。※延長料金はお引き取りの際にご請求させていただきます。</dd>
-              <dt className="qa01">クレジットカード決済は可能ですか？</dt>
-              <dd>現金のみとさせていただきます。</dd>
-              <dt className="qa01">キャンセル料はかかりますか？</dt>
-              <dd>お問い合わせのメールを送信された直後から発生します。ご宿泊費を知りたい場合はお電話ください。<br />
-              24日前から3日前50%、前日・当日100%頂戴しております。<br />
-              キャンセル料は通常料金2,200円×宿泊予定日分で請求させていただきます。<br />
-              お客様から頂戴したキャンセル料は公益財団法人日本ユニセフ協会・WWF ジャパン・公益社団法人日本動物福祉協会・国際NGOワールド ・ビジョン・ジャパン・公益財団法人プラン・ジャパンへ寄付させていただきます。</dd>
+                <dt className="qa01">ケージの持ち込みは可能ですか？</dt>
+                <dd>ケージの持ち込みはご遠慮ください。</dd>
+                <dt className="qa01">宿泊延長は可能ですか？</dt>
+                <dd>満室でなければ可能です。※延長料金はお引き取りの際にご請求させていただきます。</dd>
+                <dt className="qa01">クレジットカード決済は可能ですか？</dt>
+                <dd>現金のみとさせていただきます。</dd>
+                <dt className="qa01">キャンセル料はかかりますか？</dt>
+                <dd>お問い合わせのメールを送信された直後から発生します。ご宿泊費を知りたい場合はお電話ください。<br />
+                24日前から3日前50%、前日・当日100%頂戴しております。<br />
+                キャンセル料は通常料金2,200円×宿泊予定日分で請求させていただきます。<br />
+                お客様から頂戴したキャンセル料は公益財団法人日本ユニセフ協会・WWF ジャパン・公益社団法人日本動物福祉協会・国際NGOワールド ・ビジョン・ジャパン・公益財団法人プラン・ジャパンへ寄付させていただきます。</dd>
               </dl>
-              </div>
+            </div>
 
             <h3 className="sub_title">ペットホテルご利用にあたって</h3>
             
@@ -135,6 +135,137 @@ const price = ({ data }) => {
     </>
   )
 }
+
+const jsonLd = {
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"BreadcrumbList",
+      "@id":"https://usagisan.info/price/#breadcrumblist",
+      "itemListElement":[
+        {
+          "@type":"ListItem",
+          "@id":"https://usagisan.info/#listItem",
+          "position":1,
+          "item":{
+            "@type":"WebPage",
+            "@id":"https://usagisan.info/",
+            "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】",
+            "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
+            "url":"https://usagisan.info/"
+          },
+          "nextItem":"https://usagisan.info/price/#listItem"
+        },
+        {
+          "@type":"ListItem",
+          "@id":"https://usagisan.info/price/#listItem",
+          "position":2,
+          "item":{
+            "@type":"WebPage",
+            "@id":"https://usagisan.info/price/",
+            "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】｜料金システム",
+            "description":"埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」の料金システム。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。",
+            "url":"https://usagisan.info/price/"
+          },
+          "previousItem":"https://usagisan.info/#listItem"
+        }
+      ]
+    },
+    {
+      "@type":"Person",
+      "@id":"https://usagisan.info/price/#person"
+    },
+    {
+      "@type":"WebPage",
+      "@id":"https://usagisan.info/price/#webpage",
+      "url":"https://usagisan.info/price/",
+      "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】｜料金システム",
+      "description":"うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      "inLanguage":"ja",
+      "isPartOf":{
+        "@id":"https://usagisan.info/price/#website"
+      },
+      "breadcrumb":{
+        "@id":"https://usagisan.info/price/#breadcrumblist"
+      },
+      "datePublished":"2022-09-21T22:55:53+09:00",
+      "dateModified":"2023-01-17T3:00:07+09:00"
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://usagisan.info/price/#website",
+      "url":"https://usagisan.info/price/",
+      "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】｜料金システム",
+      "description":"うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      "inLanguage":"ja",
+      "publisher":{
+        "@id":"https://usagisan.info/price/#person"
+      }
+    }
+  ]
+}
+
+const jsonLdFaq = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "ご飯の指定は可能ですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "指定のご飯（牧草・ペレット）がある場合はご持参してください。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "当日の予約は可能ですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "基本的に可能です。予約状況によりお断りさせていただく場合がございます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ケージの持ち込みは可能ですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ケージの持ち込みはご遠慮ください。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "宿泊延長は可能ですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "満室でなければ可能です。※延長料金はお引き取りの際にご請求させていただきます。"
+      }
+    },
+    { 
+      "@type": "Question",
+      "name": "クレジットカード決済は可能ですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "現金のみとさせていただきます。"
+      }
+    },
+    { 
+      "@type": "Question",
+      "name": "キャンセル料はかかりますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "お問い合わせのメールを送信された直後から発生します。ご宿泊費を知りたい場合はお電話ください。24日前から3日前50%、前日・当日100%頂戴しております。キャンセル料は通常料金2,200円×宿泊予定日分で請求させていただきます。お客様から頂戴したキャンセル料は公益財団法人日本ユニセフ協会・WWF ジャパン・公益社団法人日本動物福祉協会・国際NGOワールド ・ビジョン・ジャパン・公益財団法人プラン・ジャパンへ寄付させていただきます。"
+      }
+    }
+  ]
+}
+
+export const Head = () => (
+  <>
+    <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+    <script type="application/ld+json">{JSON.stringify(jsonLdFaq)}</script>
+  </>
+)
 
 export default price
 

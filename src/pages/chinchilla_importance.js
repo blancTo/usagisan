@@ -76,6 +76,81 @@ const chinchilla_importance = ({ data }) => {
 
 export default chinchilla_importance
 
+const jsonLd = {
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"BreadcrumbList",
+      "@id":"https://usagisan.info/chinchilla_importance/#breadcrumblist",
+      "itemListElement":[
+        {
+          "@type":"ListItem",
+          "@id":"https://usagisan.info/#listItem",
+          "position":1,
+          "item":{
+            "@type":"WebPage",
+            "@id":"https://usagisan.info/",
+            "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】",
+            "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
+            "url":"https://usagisan.info/"
+          },
+          "nextItem":"https://usagisan.info/chinchilla_importance/#listItem"
+        },
+        {
+          "@type":"ListItem",
+          "@id":"https://usagisan.info/chinchilla_importance/#listItem",
+          "position":2,
+          "item":{
+            "@type":"WebPage",
+            "@id":"https://usagisan.info/chinchilla_importance/",
+            "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】｜チンチラのご宿泊について重要視していること",
+            "description":"埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」｜猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。｜チンチラのご宿泊について重要視していること",
+            "url":"https://usagisan.info/chinchilla_importance/"
+          },
+          "previousItem":"https://usagisan.info/#listItem"
+        }
+      ]
+    },
+    {
+      "@type":"Person",
+      "@id":"https://usagisan.info/chinchilla_importance/#person"
+    },
+    {
+      "@type":"WebPage",
+      "@id":"https://usagisan.info/chinchilla_importance/#webpage",
+      "url":"https://usagisan.info/chinchilla_importance/",
+      "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】｜チンチラのご宿泊について重要視していること",
+      "description":"うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      "inLanguage":"ja",
+      "isPartOf":{
+        "@id":"https://usagisan.info/chinchilla_importance/#website"
+      },
+      "breadcrumb":{
+        "@id":"https://usagisan.info/chinchilla_importance/#breadcrumblist"
+      },
+      "datePublished":"2022-09-21T22:55:53+09:00",
+      "dateModified":"2023-01-17T3:00:07+09:00"
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://usagisan.info/chinchilla_importance/#website",
+      "url":"https://usagisan.info/chinchilla_importance/",
+      "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】｜チンチラのご宿泊について重要視していること",
+      "description":"うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      "inLanguage":"ja",
+      "publisher":{
+        "@id":"https://usagisan.info/chinchilla_importance/#person"
+      }
+    }
+  ]
+}
+
+export const Head = () => (
+  <>
+    <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+  </>
+)
+
 export const query = graphql`
 query {
     h_bn: file(relativePath: {eq: "h_banner.png"}) {

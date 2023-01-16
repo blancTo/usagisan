@@ -64,6 +64,81 @@ const herbivore_meal = ({ data }) => {
   )
 }
 
+const jsonLd = {
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"BreadcrumbList",
+      "@id":"https://usagisan.info/herbivore_meal/#breadcrumblist",
+      "itemListElement":[
+        {
+          "@type":"ListItem",
+          "@id":"https://usagisan.info/#listItem",
+          "position":1,
+          "item":{
+            "@type":"WebPage",
+            "@id":"https://usagisan.info/",
+            "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】",
+            "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
+            "url":"https://usagisan.info/"
+          },
+          "nextItem":"https://usagisan.info/herbivore_meal/#listItem"
+        },
+        {
+          "@type":"ListItem",
+          "@id":"https://usagisan.info/herbivore_meal/#listItem",
+          "position":2,
+          "item":{
+            "@type":"WebPage",
+            "@id":"https://usagisan.info/herbivore_meal/",
+            "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】｜草食動物にとって本当に必要な食事と体の関係",
+            "description":"埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」｜猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。｜草食動物にとって本当に必要な食事と体の関係",
+            "url":"https://usagisan.info/herbivore_meal/"
+          },
+          "previousItem":"https://usagisan.info/#listItem"
+        }
+      ]
+    },
+    {
+      "@type":"Person",
+      "@id":"https://usagisan.info/herbivore_meal/#person"
+    },
+    {
+      "@type":"WebPage",
+      "@id":"https://usagisan.info/herbivore_meal/#webpage",
+      "url":"https://usagisan.info/herbivore_meal/",
+      "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】｜草食動物にとって本当に必要な食事と体の関係",
+      "description":"うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      "inLanguage":"ja",
+      "isPartOf":{
+        "@id":"https://usagisan.info/herbivore_meal/#website"
+      },
+      "breadcrumb":{
+        "@id":"https://usagisan.info/herbivore_meal/#breadcrumblist"
+      },
+      "datePublished":"2022-09-21T22:55:53+09:00",
+      "dateModified":"2023-01-17T3:00:07+09:00"
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://usagisan.info/herbivore_meal/#website",
+      "url":"https://usagisan.info/herbivore_meal/",
+      "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】｜草食動物にとって本当に必要な食事と体の関係",
+      "description":"うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      "inLanguage":"ja",
+      "publisher":{
+        "@id":"https://usagisan.info/herbivore_meal/#person"
+      }
+    }
+  ]
+}
+
+export const Head = () => (
+  <>
+    <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+  </>
+)
+
 export default herbivore_meal
 
 export const query = graphql`

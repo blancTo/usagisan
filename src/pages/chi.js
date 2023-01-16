@@ -240,6 +240,81 @@ const chi = ({ data }) => {
 
 export default chi
 
+const jsonLd = {
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"BreadcrumbList",
+      "@id":"https://usagisan.info/chi/#breadcrumblist",
+      "itemListElement":[
+        {
+          "@type":"ListItem",
+          "@id":"https://usagisan.info/#listItem",
+          "position":1,
+          "item":{
+            "@type":"WebPage",
+            "@id":"https://usagisan.info/",
+            "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】",
+            "description":"埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
+            "url":"https://usagisan.info/"
+          },
+          "nextItem":"https://usagisan.info/chi/#listItem"
+        },
+        {
+          "@type":"ListItem",
+          "@id":"https://usagisan.info/chi/#listItem",
+          "position":2,
+          "item":{
+            "@type":"WebPage",
+            "@id":"https://usagisan.info/chi/",
+            "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】｜チンチラ｜げっ歯目｜うさぎ・チンチラ専門店",
+            "description":"埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」｜猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。｜チンチラ｜げっ歯目｜うさぎ・チンチラ専門店",
+            "url":"https://usagisan.info/chi/"
+          },
+          "previousItem":"https://usagisan.info/#listItem"
+        }
+      ]
+    },
+    {
+      "@type":"Person",
+      "@id":"https://usagisan.info/chi/#person"
+    },
+    {
+      "@type":"WebPage",
+      "@id":"https://usagisan.info/chi/#webpage",
+      "url":"https://usagisan.info/chi/",
+      "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】｜チンチラ｜げっ歯目｜うさぎ・チンチラ専門店",
+      "description":"うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      "inLanguage":"ja",
+      "isPartOf":{
+        "@id":"https://usagisan.info/chi/#website"
+      },
+      "breadcrumb":{
+        "@id":"https://usagisan.info/chi/#breadcrumblist"
+      },
+      "datePublished":"2022-09-21T22:55:53+09:00",
+      "dateModified":"2023-01-17T3:00:07+09:00"
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://usagisan.info/chi/#website",
+      "url":"https://usagisan.info/chi/",
+      "name":"うさぎペットホテル・うさぎカフェ【うさぎさん】｜チンチラ｜げっ歯目｜うさぎ・チンチラ専門店",
+      "description":"うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      "inLanguage":"ja",
+      "publisher":{
+        "@id":"https://usagisan.info/chi/#person"
+      }
+    }
+  ]
+}
+
+export const Head = () => (
+  <>
+    <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+  </>
+)
+
 export const query = graphql`
 query {
     h_bn: file(relativePath: {eq: "h_banner.png"}) {
