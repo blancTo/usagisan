@@ -16,7 +16,7 @@ import Navbar from './components/Navbar'
 import Sidebar from "./components/Sidebar";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faChevronUp,faQ,faA } from "@fortawesome/free-solid-svg-icons"
+import { faQ,faA } from "@fortawesome/free-solid-svg-icons"
 
 const index = ({ data }) => {
   return (
