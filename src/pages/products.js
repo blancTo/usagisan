@@ -10,11 +10,7 @@ import Sidebar from "./components/Sidebar";
 const products = () => {
   return (
     <>
-    <Seo
-      title="販売ベビー"
-      description="うさぎペットホテル、うさぎカフェ、チンチラ専門店をお探しなら【ウサギさん】へ。午前中からのお預けや、長期利用も可能なペットホテルです。お預かり可能動物はチンチラ・ジリス・モルモット等の小動物です。最大割引50％OFFの1080円?また毎週月曜日14時から営業しております。"
-      article={true}
-       />
+    
       <Layout>
         <div id="mainimage">
           <div id="mainimage-inner">
@@ -142,6 +138,12 @@ const jsonLd = {
 
 export const Head = () => (
   <>
+  <body id="pagetop" />
+  <Seo
+      title="販売ベビー"
+      description="うさぎペットホテル、うさぎカフェ、チンチラ専門店をお探しなら【ウサギさん】へ。午前中からのお預けや、長期利用も可能なペットホテルです。お預かり可能動物はチンチラ・ジリス・モルモット等の小動物です。最大割引50％OFFの1080円?また毎週月曜日14時から営業しております。"
+      article={true}
+       />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )

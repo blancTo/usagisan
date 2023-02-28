@@ -11,10 +11,7 @@ import Sidebar from "./components/Sidebar";
 const chi = ({ data }) => {
   return (
     <>
-      <Seo
-      title="チンチラ｜げっ歯目｜うさぎ・チンチラ専門店"
-      description="チンチラ専門店（うさぎ専門店）うさぎさん（ペットホテル＆うさカフェ（チンチラカフェ））は、JR山手線鶯谷駅から５分の場所にある、午前中からお預け可能で長期利用も可能な格安ペットホテル・チンチラカフェ・うさカフェをはじめ、純血種のうさぎ・チンチラを販売もしております。"
-      article={true} />
+      
 
       <Layout>
 
@@ -311,6 +308,11 @@ const jsonLd = {
 
 export const Head = () => (
   <>
+  <body id="pagetop" />
+  <Seo
+      title="チンチラ｜げっ歯目｜うさぎ・チンチラ専門店"
+      description="チンチラ専門店（うさぎ専門店）うさぎさん（ペットホテル＆うさカフェ（チンチラカフェ））は、JR山手線鶯谷駅から５分の場所にある、午前中からお預け可能で長期利用も可能な格安ペットホテル・チンチラカフェ・うさカフェをはじめ、純血種のうさぎ・チンチラを販売もしております。"
+      article={true} />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )

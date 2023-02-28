@@ -11,10 +11,7 @@ import { Link } from "gatsby"
 const shop = ({ data }) => {
   return (
     <>
-    <Seo
-    title="SHOP INFORMATION"
-    description="うさぎペットホテル、うさぎカフェ、チンチラ専門店をお探しならをお探しなら【ウサギさん】へお越しください。こちらは当店の紹介ページになります。営業時間、受付時間等のご確認をこちらのページをご確認下さいませ。"
-    article={true} />
+    
     <Layout>
     <div id="mainimage">
             <div id="mainimage-inner">
@@ -170,6 +167,11 @@ const jsonLd = {
 
 export const Head = () => (
   <>
+  <body id="pagetop" />
+  <Seo
+    title="SHOP INFORMATION"
+    description="うさぎペットホテル、うさぎカフェ、チンチラ専門店をお探しならをお探しなら【ウサギさん】へお越しください。こちらは当店の紹介ページになります。営業時間、受付時間等のご確認をこちらのページをご確認下さいませ。"
+    article={true} />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )

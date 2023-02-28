@@ -11,10 +11,7 @@ import Sidebar from "./components/Sidebar";
 const chinchilla_rearing = ({ data }) => {
   return (
     <>
-      <Seo
-      title="チンチラの飼育について"
-      description="チンチラ専門店（うさぎ専門店）うさぎさん（ペットホテル＆うさカフェ（チンチラカフェ））は、JR山手線鶯谷駅から５分の場所にある、午前中からお預け可能で長期利用も可能な格安ペットホテル・チンチラカフェ・うさカフェをはじめ、純血種のうさぎ・チンチラを販売もしております。"
-      article={true} />
+      
       <Layout>
       <div id="mainimage">
         <div id="mainimage-inner">
@@ -31,7 +28,7 @@ const chinchilla_rearing = ({ data }) => {
           もっと言えば、飼育方法についても誤った情報が多く食生活が悪いがゆえに口腔内に問題が生じたり、<br />
           消化器系を悪くし若年で他界する個体が後を絶たない。</h3>
         <div><img src="chi/pink.png" alt="" width="100%" /></div>
-        <p className="title02 mt0 bold txt130p"><img src="/images/jyuyo_pic01.png" width={76} height={51} />　チンチラの飼育で大切なポイント</p>
+        <p className="title02 mt0 bold txt130p"><img src="/images/jyuyo_pic01.png" width={76} height={51} alt="" />　チンチラの飼育で大切なポイント</p>
         <div className="list_box_ol">
           <ol>
             <li>最も重要な栄養源である繊維質が豊富で低たんぱく・低糖質・低脂質の食生活の徹底</li>
@@ -164,6 +161,11 @@ const jsonLd = {
 
 export const Head = () => (
   <>
+  <body id="pagetop" />
+  <Seo
+      title="チンチラの飼育について"
+      description="チンチラ専門店（うさぎ専門店）うさぎさん（ペットホテル＆うさカフェ（チンチラカフェ））は、JR山手線鶯谷駅から５分の場所にある、午前中からお預け可能で長期利用も可能な格安ペットホテル・チンチラカフェ・うさカフェをはじめ、純血種のうさぎ・チンチラを販売もしております。"
+      article={true} />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )

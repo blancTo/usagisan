@@ -10,10 +10,7 @@ import Sidebar from "./components/Sidebar";
 const price = ({ data }) => {
   return (
     <>
-    <Seo
-    title="料金システム"
-    description="うさぎペットホテル、うさぎカフェ、チンチラ専門店をお探しなら【ウサギさん】へお越しください。こちらは当店の紹介ページになります。営業時間、受付時間等はこちらのページをご確認下さい。"
-    article={true} />
+    
       <Layout>
     <div id="mainimage">
             <div id="mainimage-inner">
@@ -262,6 +259,11 @@ const jsonLdFaq = {
 
 export const Head = () => (
   <>
+  <body id="pagetop" />
+  <Seo
+    title="料金システム"
+    description="うさぎペットホテル、うさぎカフェ、チンチラ専門店をお探しなら【ウサギさん】へお越しください。こちらは当店の紹介ページになります。営業時間、受付時間等はこちらのページをご確認下さい。"
+    article={true} />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
     <script type="application/ld+json">{JSON.stringify(jsonLdFaq)}</script>
   </>

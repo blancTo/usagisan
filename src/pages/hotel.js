@@ -11,10 +11,7 @@ import { Link } from "gatsby"
 const hotel = ({ data }) => {
   return (
     <>
-    <Seo
-    title="ペットホテル"
-    description="うさぎペットホテル、うさぎカフェ、チンチラ専門店をお探しなら【ウサギさん】へ。午前中からのお預けや、長期利用も可能なペットホテルです。お預かり可能動物はチンチラ・ジリス・モルモット・ハムスター・ハリネズミ・うさぎ"
-    article={true} />
+    
         <Layout>
             <div id="mainimage">
                 <div id="mainimage-inner">
@@ -136,6 +133,11 @@ const jsonLd = {
   
   export const Head = () => (
     <>
+    <body id="pagetop" />
+    <Seo
+    title="ペットホテル"
+    description="うさぎペットホテル、うさぎカフェ、チンチラ専門店をお探しなら【ウサギさん】へ。午前中からのお預けや、長期利用も可能なペットホテルです。お預かり可能動物はチンチラ・ジリス・モルモット・ハムスター・ハリネズミ・うさぎ"
+    article={true} />
       <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
     </>
   )

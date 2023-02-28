@@ -6,9 +6,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: "うさぎペットホテル・うさぎカフェ【うさぎさん】",
+    title: "うさぎのペットホテル＆うさぎカフェ | 安心・安全・快適な宿泊環境を提供【JR山手線鶯谷駅徒歩5分】",
     description:
-      "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      "JR山手線鶯谷駅からわずか５分！うさぎさんの安心・安全・快適な宿泊環境を提供する、うさぎのペットホテルです。初めての方も安心してご利用いただけます。併設のうさぎカフェで、愛らしいうさぎさんたちと触れ合いながら癒やされてみませんか？",
     image: "images/usagisan_ogp.jpg",
     url: "https://usagisan.info/",
     twitterUsername: "7463Ican",
@@ -25,7 +25,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
-    `gatsby-plugin-react-helmet`,
     
   ],
 }

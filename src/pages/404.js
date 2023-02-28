@@ -11,7 +11,7 @@ import Sidebar from "./components/Sidebar";
 const NotFound = ({ data }) => {
   return (
       <>
-      <Seo title="ページが見つかりません" description="お探しのページは、移動または削除された可能性があります。" article="true" />
+      
       <Layout>
         <div id="mainimage">
                 <div id="mainimage-inner">
@@ -108,6 +108,8 @@ const jsonLd = {
 
 export const Head = () => (
   <>
+  <body id="pagetop" />
+  <Seo title="ページが見つかりません" description="お探しのページは、移動または削除された可能性があります。" article="true" />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )

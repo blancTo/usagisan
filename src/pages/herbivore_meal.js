@@ -10,10 +10,7 @@ import Sidebar from "./components/Sidebar";
 const herbivore_meal = ({ data }) => {
   return (
     <>
-    <Seo
-    title="草食動物にとって本当に必要な食事と体の関係"
-    description="チンチラ専門店（うさぎ専門店）うさぎさん（ペットホテル＆うさカフェ（チンチラカフェ））は、JR山手線鶯谷駅から５分の場所にある、午前中からお預け可能で長期利用も可能な格安ペットホテル・チンチラカフェ・うさカフェをはじめ、純血種のうさぎ・チンチラを販売もしております。"
-    article={true} />
+    
       <Layout>
     <div id="mainimage">
             <div id="mainimage-inner">
@@ -25,7 +22,7 @@ const herbivore_meal = ({ data }) => {
     <div id="main-content" className="flex-wrap">
         <div className="main-cont">
             <h2><img src="/images/herbivore_meal_tit.png" width={698} alt="草食動物にとって本当に必要な食事と体の関係" /></h2>
-            <p className='blue'>今回のテーマ草食動物、一般的にうさぎ・チンチラ・モルモット・デグーにとって本当に必要な食事と身体の関係についてです。我々人間はもちろん動物も食べ物を摂取することで消化吸収され必要な栄養素を身体に取り入れ生命活動を行っています。<img src="/images/rabbit_chara01.png" width={50} height={50} className="middle" /></p>
+            <p className='blue'>今回のテーマ草食動物、一般的にうさぎ・チンチラ・モルモット・デグーにとって本当に必要な食事と身体の関係についてです。我々人間はもちろん動物も食べ物を摂取することで消化吸収され必要な栄養素を身体に取り入れ生命活動を行っています。<img src="/images/rabbit_chara01.png" width={50} height={50} className="middle" alt="" /></p>
             <p className='center'><img src="/images/chi/pink.png" alt="" width="100%" /></p>
             
             <p>吸収された栄養素は活動のために必要なエネルギー源になるだけではなく、筋肉・骨・細胞などの生体の構成や生命維持に必要な機能に利用されます。食事の摂取が不摂生だったり、食べていても必要な栄養素が十分に摂取できないと身体が正常な働きを維持することが困難になります。大切な栄養素を理解し犬・猫・鳥・うさぎ・モルモット・デグー・チンチラ・ハムスターなどの愛玩動物が病気にかかりにくい身体を作っていきましょう。</p>
@@ -135,6 +132,11 @@ const jsonLd = {
 
 export const Head = () => (
   <>
+  <body id="pagetop" />
+  <Seo
+    title="草食動物にとって本当に必要な食事と体の関係"
+    description="チンチラ専門店（うさぎ専門店）うさぎさん（ペットホテル＆うさカフェ（チンチラカフェ））は、JR山手線鶯谷駅から５分の場所にある、午前中からお預け可能で長期利用も可能な格安ペットホテル・チンチラカフェ・うさカフェをはじめ、純血種のうさぎ・チンチラを販売もしております。"
+    article={true} />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )

@@ -10,11 +10,7 @@ import Sidebar from "./components/Sidebar";
 const voice = ({ data }) => {
   return (
     <>
-      <Seo
-      title="お客様の声"
-      description="うさぎペットホテル・うさぎカフェ、チンチラ専門店をお探しなら【うさぎさん】へ。こちらのページでは、当店が運営しているうさぎカフェをご紹介しております。かわいいうさぎさんのイメージ写真も掲載しておりますのでぜひご覧ください。"
-      article={true}
-      />
+      
       <Layout>
 
         <div id="mainimage">
@@ -141,6 +137,12 @@ const jsonLd = {
 
 export const Head = () => (
   <>
+    <body id="pagetop" />
+    <Seo
+      title="お客様の声"
+      description="うさぎペットホテル・うさぎカフェ、チンチラ専門店をお探しなら【うさぎさん】へ。こちらのページでは、当店が運営しているうさぎカフェをご紹介しております。かわいいうさぎさんのイメージ写真も掲載しておりますのでぜひご覧ください。"
+      article={true}
+    />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )

@@ -16,8 +16,11 @@ const Header = () => {
               <div className="pc"><Link to="/contact_page.html"><StaticImage src="../../images/common/header_img.png" alt="" width={463} height={108} /></Link></div>
             </div>
             <div className="smp">
+              
               <input type="checkbox" id="overlay-input" />
-              <label for="overlay-input" id="overlay-button"><span></span></label>
+              <label htmlFor="overlay-input" id="overlay-button">
+                <span></span>
+              </label>
               
               <div id="overlay">
 
