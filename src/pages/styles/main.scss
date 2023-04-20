@@ -806,3 +806,12 @@ footer {
 .fa-a { position: absolute; top:10px; left:10px; font-size: 140%; display: inline-block; box-sizing: border-box; color: #fe9500; }
 
 .mb50 { margin-bottom: 50px;}
+.banner-text {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5px; /* バナーの上に配置するためのマージン調整 */
+    margin-bottom: -15px;
+    z-index: 1; /* テキストをバナーの上に表示するためのz-index調整 */
+    position: relative;
+  }
+  
