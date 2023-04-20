@@ -618,6 +618,11 @@ footer {
         padding: 2% 3%;
         border-right: 1px solid #ddd;
         border-bottom: 1px solid #ddd;
+        textarea { 
+            @media screen and (max-width:768px) {
+                width: 100%;
+            }
+        }
     }
 }
   

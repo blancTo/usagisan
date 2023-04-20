@@ -120,7 +120,7 @@ const chi = ({ data }) => {
               </div>
             </div>
 
-            <p className='center'><Link to="/contact_c/"><img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" /></Link></p>
+            <p className='center'><Link to="/contact_c.html"><img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" /></Link></p>
             
             <p className="title03">チンチラ</p>
             
@@ -153,7 +153,7 @@ const chi = ({ data }) => {
               </div>
             </div>
 
-            <p className='center'><Link to="/contact_c/"><img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" /></Link></p>
+            <p className='center'><Link to="/contact_c.html"><img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" /></Link></p>
 
             <p className="title03">チンチラ</p>
             
@@ -184,7 +184,7 @@ const chi = ({ data }) => {
               </div>
             </div>
 
-            <p className='center'><Link to="/contact_c/"><img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" /></Link></p>
+            <p className='center'><Link to="/contact_c.html"><img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" /></Link></p>
               
             <p className="title03">チンチラ</p>
           
@@ -219,7 +219,7 @@ const chi = ({ data }) => {
               </div>
             </div>
 
-            <p className='center'><Link to="/contact_c/"><img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" /></Link></p>
+            <p className='center'><Link to="/contact_c.html"><img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" /></Link></p>
 
             <p className='center'><img src="/images/chi/chi_bo.png" alt="" /></p>
 
