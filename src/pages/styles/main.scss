@@ -396,6 +396,7 @@ footer {
             width: 100%;
             order: 2;
             padding: 3%;
+            text-align: center;
         }
         #sider_nav {
             background-image: url(/images/common/side_nav_bg.png);
@@ -820,4 +821,9 @@ footer {
     margin-bottom: -15px;
     z-index: 1; /* テキストをバナーの上に表示するためのz-index調整 */
     position: relative;
+}
+
+.side_txt_top { font-weight: 900;
+    font-size: 120%;
+    color: #fe9500;
 }
