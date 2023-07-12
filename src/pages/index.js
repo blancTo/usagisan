@@ -37,7 +37,7 @@ const index = ({ data }) => {
             
             <div className="smp center">
               <p className='side_txt_top'>ご予定確定後予約お願いします。<br />
-              連休やレジャーシーズンでも確実に<br />部屋を確保できます。</p>
+              連休やレジャーシーズンでも確実に<br />お部屋を確保できます。</p>
               <p><Link to="/contact_hotel.html"><StaticImage src="../images/hotel_contact_btn.png" alt="ペットホテルのお問い合わせ・ご予約はこちらから" /></Link></p>
               <p><Link to="/contact_cafe.html"><StaticImage src="../images/cafe_contact_btn.png" alt="うさぎカフェ問い合わせ・ご予約はこちらから" /></Link></p>
               <p><Link to="tel:08043837060"><StaticImage src="../images/tel_btn.png" alt="お見積などのお問い合わせは携帯電話まで" /></Link></p>
