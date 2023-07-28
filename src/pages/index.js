@@ -68,52 +68,46 @@ const index = ({ data }) => {
 
             <div className="top_faq_box">
 
-              <input class="acd-check" type="checkbox" id="acd-check1" title="ご飯の指定は可能ですか？" />
-              <label class="acd-label" htmlFor="acd-check1"><FontAwesomeIcon icon={faQ} />ご飯の指定は可能ですか？</label>
-              <div class="acd-content">
-                <FontAwesomeIcon icon={faA} />
+              <input id="block-01" type="checkbox" className="toggle" />
+              <label className="Label" for="block-01"><FontAwesomeIcon icon={faQ} />ご飯の指定は可能ですか？</label>
+              <div className="content">
+              <FontAwesomeIcon icon={faA} />
                 <p>指定のご飯（牧草・ペレット）がある場合はご持参してください。</p>
               </div>
 
-              <input id="acd-check2" class="acd-check" type="checkbox" />
-              <label class="acd-label" htmlFor="acd-check2">
-                <FontAwesomeIcon icon={faQ} />当日の予約は可能ですか？
-              </label>
-              <div class="acd-content">
-                <FontAwesomeIcon icon={faA} />
+              <input id="block-02" type="checkbox" className="toggle" />
+              <label className="Label" for="block-02"><FontAwesomeIcon icon={faQ} />当日の予約は可能ですか？</label>
+              <div className="content">
+              <FontAwesomeIcon icon={faA} />
                 <p>基本的に可能です。予約状況によりお断りさせていただく場合がございます。</p>
               </div>
-              <input id="acd-check3" class="acd-check" type="checkbox" />
-              <label class="acd-label" htmlFor="acd-check3">
-                <FontAwesomeIcon icon={faQ} />ケージの持ち込みは可能ですか？
-              </label>
-              <div class="acd-content">
-                <FontAwesomeIcon icon={faA} />
+
+              <input id="block-03" type="checkbox" className="toggle" />
+              <label className="Label" for="block-03"><FontAwesomeIcon icon={faQ} />ケージの持ち込みは可能ですか？</label>
+              <div className="content">
+              <FontAwesomeIcon icon={faA} />
                 <p>ケージの持ち込みはご遠慮ください。</p>
               </div>
-              <input id="acd-check4" class="acd-check" type="checkbox" />
-              <label class="acd-label" htmlFor="acd-check4">
-                <FontAwesomeIcon icon={faQ} />宿泊延長は可能ですか？
-              </label>
-              <div class="acd-content">
-                <FontAwesomeIcon icon={faA} />
+
+              <input id="block-04" type="checkbox" className="toggle" />
+              <label className="Label" for="block-04"><FontAwesomeIcon icon={faQ} />宿泊延長は可能ですか？</label>
+              <div className="content">
+              <FontAwesomeIcon icon={faA} />
                 <p>満室でなければ可能です。※延長料金はお引き取りの際にご請求させていただきます。</p>
               </div>
-              <input id="acd-check5" class="acd-check" type="checkbox" />
-              <label class="acd-label" htmlFor="acd-check5">
-                <FontAwesomeIcon icon={faQ} />クレジットカード決済は可能ですか？
-              </label>
-              <div class="acd-content">
-                <FontAwesomeIcon icon={faA} />
-                <p>現金のみとさせていただきます。</p>
+
+              <input id="block-05" type="checkbox" className="toggle" />
+              <label className="Label" for="block-05"><FontAwesomeIcon icon={faQ} />クレジットカード決済は可能ですか？</label>
+              <div className="content">
+              <FontAwesomeIcon icon={faA} />
+                <p>2万円から対応可能とさせて頂いております。<br />
+                ※QRコード（PayPay）使用可能です。</p>
               </div>
-              <input id="acd-check6" class="acd-check" type="checkbox" />
-              <label class="acd-label" htmlFor="acd-check6">
-                <FontAwesomeIcon icon={faQ} />
-                キャンセル料はかかりますか？
-              </label>
-              <div class="acd-content">
-                <FontAwesomeIcon icon={faA} />
+
+              <input id="block-06" type="checkbox" className="toggle" />
+              <label className="Label" for="block-06"><FontAwesomeIcon icon={faQ} />キャンセル料はかかりますか？</label>
+              <div className="content">
+              <FontAwesomeIcon icon={faA} />
                 <p>お問い合わせのメールを送信された直後から発生します。ご宿泊費を知りたい場合はお電話ください。<br />
                 24日前から3日前50%、前日・当日100%頂戴しております。<br />
                 キャンセル料は通常料金2,200円×宿泊予定日分で請求させていただきます。<br />

@@ -827,3 +827,51 @@ footer {
     font-size: 120%;
     color: #fe9500;
 }
+
+/*ベース*/
+.toggle {
+	display: none;
+}
+.Label {		/*タイトル*/
+	padding: 1em 1em 1em 50px;
+	display: block;
+	color: #000;
+	background:#efefef;
+}
+.Label::before{		/*タイトル横の矢印*/
+	content:"";
+	width: 6px;
+	height: 6px;
+	border-top: 2px solid #000;
+	border-right: 2px solid #000;
+	-webkit-transform: rotate(45deg);
+	position: absolute;
+	top:calc( 50% - 3px );
+	right: 20px;
+	transform: rotate(135deg);
+}
+.Label,
+.content {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transform: translateZ(0);
+	transition: .5s;
+}
+.content {		/*本文*/
+	height: 0;
+	margin-bottom:10px;
+	padding:0 10px 0 50px;
+	overflow: hidden;
+    opacity: 0;
+    border-bottom: solid 1px #ccc;
+    transition: .5s;
+}
+.toggle:checked + .Label + .content {	/*開閉時*/
+	height: auto;
+    opacity: 1;
+	padding:0 10px 0 50px;
+	transition: .5s;
+}
+.toggle:checked + .Label::before {
+	transform: rotate(-45deg) !important;
+}

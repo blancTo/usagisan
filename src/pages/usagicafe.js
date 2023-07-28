@@ -138,8 +138,9 @@ const usagicafe = ({ data }) => {
                         <div className="cafe01_sn"><img width="100%" height="auto" alt="" src="/images/cafe/cafe6.png" /></div>
                         <div className="cafe02_sn"><span><span className="sn_fs20">マーモット</span><br />
                             <br />
-                            日本で唯一見ることが出来る珍獣<br />
-                            人に馴れていない為、触れ合うことは出来ませんがとっても愛くるしい表情で寝る姿を見て癒されてください。</span></div>
+                            日本で唯一触れ合うことが出来る珍獣。<br />
+                            <br />
+                            愛くるしい姿で近づいてきてくれるマーモットに癒されてください。</span></div>
                     </div>
                     
                     <h3 className="cafe_h2">うさぎさん</h3>
