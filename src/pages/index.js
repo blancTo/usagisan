@@ -116,7 +116,7 @@ const index = ({ data }) => {
 
             </div>
 
-            <p className='side_txt_top pc'>ご予定確定後予約お願いします。<br />
+            <p className='side_txt_top pc center'>ご予定確定後予約お願いします。<br />
               連休やレジャーシーズンでも確実にお部屋を確保できます。</p>
 
             <p className="center"><Link to="/hotel/"><StaticImage src="../images/hotel_bn.png" alt="ペットホテル" /></Link></p>
