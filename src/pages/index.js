@@ -116,6 +116,9 @@ const index = ({ data }) => {
 
             </div>
 
+            <p className='side_txt_top pc'>ご予定確定後予約お願いします。<br />
+              連休やレジャーシーズンでも確実にお部屋を確保できます。</p>
+
             <p className="center"><Link to="/hotel/"><StaticImage src="../images/hotel_bn.png" alt="ペットホテル" /></Link></p>
             
             <p className="center"><Link to="mailto:info@usagisan.info" className="contact_btn">お問い合わせ・ご予約希望の方は</Link><br className="smp" />info@usagisan.info</p>
