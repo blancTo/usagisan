@@ -135,6 +135,12 @@ const index = ({ data }) => {
             <p className="center"><Link to="mailto:info@usagisan.info" className="contact_btn">お問い合わせ・ご予約希望の方は</Link><br className="smp" />info@usagisan.info</p>
             <p className="center"><Link to="tel:080-4383-7060" className="contact_btn">お電話でのお問い合わせはこちら</Link><br className="smp" />080-4383-7060</p>
             
+            <h3><StaticImage src="../images/index_tit03.jpg" alt="新着情報" /></h3>
+            <ul>
+              <li>Webメディア<a href='https://dogcatch.net/wanwannavi/' target='_blank' rel='noopener noreferrer'>「犬の問題を解決するメディア|わんわんナビ」</a>にて、うさぎさんが紹介されました！詳細は以下よりご覧ください。<br />
+              <a href='https://dogcatch.net/wanwannavi/tokyotonai-dobutsukafue-osusume/' target='_blank' rel='noopener noreferrer'>東京都内にある動物カフェおすすめ8選！かわいい犬・猫に癒される</a></li>
+            </ul>
+
             <h3><StaticImage src="../images/title_pic04.jpg" alt="アクセスマップ" /></h3>            
             
             <Link to="https://www.google.co.jp/maps?f=q&source=embed&hl=ja&geocode=&q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%A0%B9%E5%B2%B8%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%95%E2%88%92%EF%BC%94&aq=&sll=36.5626,136.362305&sspn=63.246385,135.263672&brcurrent=3,0x60188e8452f0f7c3:0xf8dc853cab0bb46c,0,0x60188e845391cbbb:0xa86295f4b65cfd49&ie=UTF8&hq=&hnear=%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8C%BA%E6%A0%B9%E5%B2%B8%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%95%E2%88%92%EF%BC%94&ll=35.722048,139.780434&spn=0.008022,0.016512&t=m&z=14">
