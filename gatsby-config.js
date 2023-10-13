@@ -7,10 +7,12 @@
 module.exports = {
   siteMetadata: {
     title: "うさぎペットホテル・うさぎカフェ【うさぎさん】",
+    keyword:"うさぎペットホテル,うさぎ,ウサギさん,専門店,ショップ,東京,鶯谷,うさカフェ,usagi,チンチラ,チンチラカフェ,新宿,渋谷,中野,台東,千代田,北,荒川,墨田,港,神奈川",
     description:
       "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
     image: "images/usagisan_ogp.jpg",
-    url: "https://usagisan.info/",
+    url: "https://usagisan.info",
+    siteUrl: "https://usagisan.info",
     twitterUsername: "7463Ican",
   },
   plugins: [
@@ -25,6 +27,23 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
+
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: `https://usagisan.info`,
+        sitemap: `https://usagisan.info/sitemap-0.xml`,
+        policy: [{ userAgent: `*`, allow: `/` }],
+      },
+    },
     
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://usagisan.info`,
+      },
+    },
+
   ],
 }
