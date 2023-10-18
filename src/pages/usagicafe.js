@@ -69,33 +69,6 @@ const usagicafe = ({ data }) => {
             <h3 className="sub_title">☆当店のうさぎさん</h3>
 
             <div className="cafe_sn">
-              <div className="cafe02_sn_2">
-                <span>
-                  <span className="sn_fs20">フレミッシュジャイアント</span>
-                  <br />
-                  <br />
-                  通常のウサギの5倍は軽く越える巨大ウサギさん。
-                  <br />
-                  とっても気が優しく、のんびり屋さんです。
-                </span>
-              </div>
-            </div>
-            <div className="cafe_sn">
-              <div className="cafe02_sn_2">
-                <span>
-                  <span className="sn_fs20">チェッカードジャイアント</span>
-                  <br />
-                  <br />
-                  最も美しいウサギと言われています。
-                  <br />
-                  フレミッシュジャイアントと同じ大型種です。
-                  <br />
-                  マイペースな甘えん坊さん、抱っこも可能です。
-                </span>
-              </div>
-            </div>
-
-            <div className="cafe_sn">
               <div className="cafe01_sn">
                 <img
                   width="100%"
@@ -112,45 +85,6 @@ const usagicafe = ({ data }) => {
                   とても筋肉質でビロードのような毛並みを一度触れば、ずっともふもふしていたいと思うはずです。
                   <br />
                   とても穏やかな性格です。
-                </span>
-              </div>
-            </div>
-
-            <div className="cafe_sn">
-              <div className="cafe02_sn_2">
-                <span>
-                  <span className="sn_fs20">ラインランダー</span>
-                  <br />
-                  <br />
-                  背中の一本線と三色の特徴的な模様が目をひくウサギさん。
-                  <br />
-                  とにかく、美しいウサギさんで甘え上手です。
-                </span>
-              </div>
-            </div>
-
-            <div className="cafe_sn">
-              <div className="cafe02_sn_2">
-                <span>
-                  <span className="sn_fs20">ヒマラヤン</span>
-                  <br />
-                  <br />
-                  チャームポイントの細い顔と、特徴的な毛色
-                  <br />
-                  幼稚園児でも抱っこすることができるほど、穏やかなウサギさんです。
-                </span>
-              </div>
-            </div>
-
-            <div className="cafe_sn">
-              <div className="cafe02_sn_2">
-                <span>
-                  <span className="sn_fs20">ミニレッキス</span>
-                  <br />
-                  <br />
-                  毛並みは、スタンダードレッキス同様美しく、触り心地も良いです。
-                  <br />
-                  当店一の甘え上手
                 </span>
               </div>
             </div>
@@ -288,7 +222,7 @@ const usagicafe = ({ data }) => {
               <span
                 itemProp="address"
                 itemScope
-                itemType="//schema.org/PostalAddress"
+                itemType="https://schema.org/PostalAddress"
               >
                 <span itemProp="addressRegion">東京都</span>
                 <span itemProp="addressLocality">台東区</span>
