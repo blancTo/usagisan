@@ -13,10 +13,7 @@ const products = () => {
       <Layout>
         <div id="mainimage">
           <div id="mainimage-inner">
-            <StaticImage
-              src="../images/products/products_header.jpg"
-              alt="販売ベビーうさぎ/チンチラ"
-            />
+            <StaticImage src="../images/products/products_header.jpg" alt="販売ベビーうさぎ/チンチラ" />
           </div>
         </div>
 
@@ -25,10 +22,7 @@ const products = () => {
         <div id="main-content" className="flex-wrap">
           <div className="main-cont">
             <h2>
-              <img
-                src="/images/index_tit_sn.jpg"
-                alt="うさぎ・チンチラ販売ベビー"
-              />
+              <img src="/images/index_tit_sn.jpg" alt="うさぎ・チンチラ販売ベビー" />
             </h2>
             <p>
               <img src="/images/chinchilla_bn01.png" alt="" />
@@ -125,12 +119,7 @@ const products = () => {
             </div>
             <div className="products_sn">
               <div className="products01_sn">
-                <img
-                  src="/images/products/20150523110020.jpg"
-                  width="100%"
-                  height="auto"
-                  alt=""
-                />
+                <img src="/images/products/20150523110020.jpg" width="100%" height="auto" alt="" />
               </div>
               <div className="products02_sn">
                 <span>
@@ -142,12 +131,7 @@ const products = () => {
             </div>
             <div className="products_sn">
               <div className="products01_sn">
-                <img
-                  src="/images/products/20150523104142.jpg"
-                  width="100%"
-                  height="auto"
-                  alt=""
-                />
+                <img src="/images/products/20150523104142.jpg" width="100%" height="auto" alt="" />
               </div>
               <div className="products02_sn">
                 <span>

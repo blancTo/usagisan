@@ -4,15 +4,9 @@ import { useStaticQuery, graphql } from "gatsby"
 import { useLocation } from "@reach/router"
 import PropTypes from "prop-types"
 
-const SEO = ({ title, title2, description,keyword, image, article }) => {
+const SEO = ({ title, title2, description, keyword, image, article }) => {
   const { site } = useStaticQuery(query)
-  const {
-    defaultTitle,
-    defaultDescription,
-    siteUrl,
-    defaultImage,
-    defaultKeyword,
-  } = site.siteMetadata
+  const { defaultTitle, defaultDescription, siteUrl, defaultImage, defaultKeyword } = site.siteMetadata
   const { pathname } = useLocation()
 
   const seo = {
@@ -20,11 +14,11 @@ const SEO = ({ title, title2, description,keyword, image, article }) => {
     keyword: keyword || defaultKeyword,
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
-    url: `${siteUrl}${pathname}`,    
+    url: `${siteUrl}${pathname}`,
   }
 
   return (
-    <>      
+    <>
       <title>{seo.title}</title>
       <meta name="Keywords" content={seo.keyword} />
       <meta name="description" content={seo.description} />
@@ -32,16 +26,12 @@ const SEO = ({ title, title2, description,keyword, image, article }) => {
       {seo.url && <meta property="og:url" content={seo.url} />}
       {(article ? true : null) && <meta property="og:type" content="article" />}
       {seo.title && <meta property="og:title" content={seo.title} />}
-      {seo.description && (
-        <meta property="og:description" content={seo.description} />
-      )}
+      {seo.description && <meta property="og:description" content={seo.description} />}
       {seo.image && <meta property="og:image" content={seo.image} />}
       <meta name="twitter:card" content="summary_large_image" />
-      
+
       {seo.title && <meta name="twitter:title" content={seo.title} />}
-      {seo.description && (
-        <meta name="twitter:description" content={seo.description} />
-      )}
+      {seo.description && <meta name="twitter:description" content={seo.description} />}
       {seo.image && <meta name="twitter:image" content={seo.image} />}
     </>
   )

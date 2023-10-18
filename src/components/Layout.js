@@ -17,12 +17,7 @@ const Layout = ({ children }) => {
         <div id="footer">
           <div id="footer-inner">
             <div className="foot_l">
-              <StaticImage
-                src="../images/footer_logo.png"
-                width={338}
-                height={28}
-                alt="うさぎペットホテル・うさぎカフェ【うさぎさん】"
-              />
+              <StaticImage src="../images/footer_logo.png" width={338} height={28} alt="うさぎペットホテル・うさぎカフェ【うさぎさん】" />
             </div>
             <div className="foot_r">
               <ul>
@@ -51,29 +46,20 @@ const Layout = ({ children }) => {
                   <Link to="/rabbit_breeding/">うさぎの飼育　グルーミング</Link>
                 </li>
                 <li>
-                  <Link to="/rabbit_vegetable/">
-                    うさぎの飼育　生野菜の給餌について
-                  </Link>
+                  <Link to="/rabbit_vegetable/">うさぎの飼育　生野菜の給餌について</Link>
                 </li>
                 <li>
                   <Link to="/chinchilla_rearing/">チンチラの飼育について</Link>
                 </li>
                 <li>
-                  <Link to="/chinchilla_importance/">
-                    チンチラのご宿泊について重要視していること
-                  </Link>
+                  <Link to="/chinchilla_importance/">チンチラのご宿泊について重要視していること</Link>
                 </li>
                 <li>
-                  <Link to="/herbivore_meal/">
-                    草食動物にとって本当に必要な食事と体の関係
-                  </Link>
+                  <Link to="/herbivore_meal/">草食動物にとって本当に必要な食事と体の関係</Link>
                 </li>
               </ul>
             </div>
-            <address>
-              Copyright &copy; 2022
-              うさぎペットホテル・うさぎカフェ【うさぎさん】
-            </address>
+            <address>Copyright &copy; 2022 うさぎペットホテル・うさぎカフェ【うさぎさん】</address>
           </div>
         </div>
       </footer>

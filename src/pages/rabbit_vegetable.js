@@ -13,10 +13,7 @@ const rabbit_vegetable = ({ data }) => {
       <Layout>
         <div id="mainimage">
           <div id="mainimage-inner">
-            <GatsbyImage
-              image={data.h_bn.childImageSharp.gatsbyImageData}
-              alt=""
-            />
+            <GatsbyImage image={data.h_bn.childImageSharp.gatsbyImageData} alt="" />
           </div>
         </div>
         <Navbar />
@@ -24,11 +21,7 @@ const rabbit_vegetable = ({ data }) => {
         <div id="main-content" className="flex-wrap">
           <div className="main-cont">
             <h3>
-              <img
-                src="/images/vegetable_tit.png"
-                width={698}
-                alt="うさぎの飼育　生野菜の給餌について"
-              />
+              <img src="/images/vegetable_tit.png" width={698} alt="うさぎの飼育　生野菜の給餌について" />
             </h3>
             <p className="center">
               <img src="/images/vegetable_pic01.jpg" alt="" width="100%" />

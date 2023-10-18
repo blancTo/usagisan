@@ -13,10 +13,7 @@ const herbivore_meal = ({ data }) => {
       <Layout>
         <div id="mainimage">
           <div id="mainimage-inner">
-            <GatsbyImage
-              image={data.h_bn.childImageSharp.gatsbyImageData}
-              alt=""
-            />
+            <GatsbyImage image={data.h_bn.childImageSharp.gatsbyImageData} alt="" />
           </div>
         </div>
         <Navbar />
@@ -24,21 +21,11 @@ const herbivore_meal = ({ data }) => {
         <div id="main-content" className="flex-wrap">
           <div className="main-cont">
             <h2>
-              <img
-                src="/images/herbivore_meal_tit.png"
-                width={698}
-                alt="草食動物にとって本当に必要な食事と体の関係"
-              />
+              <img src="/images/herbivore_meal_tit.png" width={698} alt="草食動物にとって本当に必要な食事と体の関係" />
             </h2>
             <p className="blue">
               今回のテーマ草食動物、一般的にうさぎ・チンチラ・モルモット・デグーにとって本当に必要な食事と身体の関係についてです。我々人間はもちろん動物も食べ物を摂取することで消化吸収され必要な栄養素を身体に取り入れ生命活動を行っています。
-              <img
-                src="/images/rabbit_chara01.png"
-                width={50}
-                height={50}
-                className="middle"
-                alt=""
-              />
+              <img src="/images/rabbit_chara01.png" width={50} height={50} className="middle" alt="" />
             </p>
             <p className="center">
               <img src="/images/chi/pink.png" alt="" width="100%" />

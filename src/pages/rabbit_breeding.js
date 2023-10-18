@@ -18,10 +18,7 @@ const rabbit_breeding = ({ data }) => {
       <Layout>
         <div id="mainimage">
           <div id="mainimage-inner">
-            <GatsbyImage
-              image={data.h_bn.childImageSharp.gatsbyImageData}
-              alt=""
-            />
+            <GatsbyImage image={data.h_bn.childImageSharp.gatsbyImageData} alt="" />
           </div>
         </div>
         <Navbar />
@@ -29,44 +26,26 @@ const rabbit_breeding = ({ data }) => {
         <div id="main-content" className="flex-wrap">
           <div className="main-cont">
             <h3>
-              <img
-                src="/images/breeding_tit.png"
-                width={698}
-                alt="うさぎの飼育　グルーミング"
-              />
+              <img src="/images/breeding_tit.png" width={698} alt="うさぎの飼育　グルーミング" />
             </h3>
 
             <h3 className="blue bold center">
               うさぎの換毛期とブラッシングの重要性
-              <img
-                src="/images/rabbit_chara01.png"
-                alt=""
-                width={50}
-                height={50}
-                className="middle"
-              />
+              <img src="/images/rabbit_chara01.png" alt="" width={50} height={50} className="middle" />
             </h3>
             <div>
               <img src="/images/chi/pink.png" alt="" width="100%" />
             </div>
-            <p className="bold center">
-              うさぎを飼育する上で換毛期の対処法を知ることは大切です。
-            </p>
+            <p className="bold center">うさぎを飼育する上で換毛期の対処法を知ることは大切です。</p>
             <p className="box_cream bold center">
-              <img
-                src="/images/jyuyo_pic01.png"
-                width={76}
-                height={51}
-                alt=""
-              />{" "}
+              <img src="/images/jyuyo_pic01.png" width={76} height={51} alt="" />{" "}
               換毛期だけではなく日頃のブラッシングが重要！
             </p>
             <p className="title02">日頃のブラッシングを行うメリット</p>
             <div className="rabbit_list01">
               <ul>
                 <li>
-                  <FontAwesomeIcon icon={faCheck} />{" "}
-                  ブラッシングを毎日行うことでコミュニケーションをとることが出来る。
+                  <FontAwesomeIcon icon={faCheck} /> ブラッシングを毎日行うことでコミュニケーションをとることが出来る。
                 </li>
                 <li>
                   <FontAwesomeIcon icon={faCheck} />{" "}
@@ -103,18 +82,8 @@ const rabbit_breeding = ({ data }) => {
             </div>
             <p className="title03">
               うさぎのブラッシング方法
-              <img
-                src="/images/burashi_pic01.png"
-                width={30}
-                height={30}
-                alt=""
-              />
-              <img
-                src="/images/rabbit_chara01.png"
-                width={50}
-                height={50}
-                alt=""
-              />
+              <img src="/images/burashi_pic01.png" width={30} height={30} alt="" />
+              <img src="/images/rabbit_chara01.png" width={50} height={50} alt="" />
             </p>
             <div style={{ padding: "0 2%" }}>
               <p>
@@ -142,20 +111,12 @@ const rabbit_breeding = ({ data }) => {
                 <li>最後はトリートメントなどを使っても良いと思いますが。</li>
               </ol>
             </div>
-            <p>
-              コツは力をいれず何度も何度も優しく身体をなぞるようにブラッシングすること。
-            </p>
+            <p>コツは力をいれず何度も何度も優しく身体をなぞるようにブラッシングすること。</p>
             <p>
               ブラッシングはガードヘアーはラバーブラシなどを使い、アンダーコートにスリッカーブラシが有効的だと言われています。
             </p>
             <p className="box_cream bold center">
-              <img
-                src="/images/point_pic01.png"
-                width={76}
-                height={54}
-                alt=""
-              />{" "}
-              なぜブラッシングが必要なのか？
+              <img src="/images/point_pic01.png" width={76} height={54} alt="" /> なぜブラッシングが必要なのか？
             </p>
             <p>
               ブラッシングが必要な理由を深く掘り下げると、うさぎの消化器障害を「急性胃拡張」、「鼓脹症」、「食滞・うっ滞」の予防になると考えられているからです。
@@ -163,13 +124,7 @@ const rabbit_breeding = ({ data }) => {
               ただ毎日グルーミングを行ったからと言って消化器障害を完全に防げるかというとそうではありません。「室温・湿度の変化」などをはじめ様々な要因があるため、グルーミングを行ったからと言って完全に予防出来るわけではありませんがグルーミングを行うことで発症確率をかなり低くすることが可能です。
             </p>
             <p className="box_cream bold center">
-              <img
-                src="/images/stress_pic01.png"
-                width={75}
-                height={57}
-                alt=""
-                className="middle"
-              />
+              <img src="/images/stress_pic01.png" width={75} height={57} alt="" className="middle" />
               　消化器障害を減少させるストレスのない環境作り
             </p>
             <p>

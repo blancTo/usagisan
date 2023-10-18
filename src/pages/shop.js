@@ -13,10 +13,7 @@ const shop = ({ data }) => {
       <Layout>
         <div id="mainimage">
           <div id="mainimage-inner">
-            <GatsbyImage
-              image={data.shop_head.childImageSharp.gatsbyImageData}
-              alt=""
-            />
+            <GatsbyImage image={data.shop_head.childImageSharp.gatsbyImageData} alt="" />
           </div>
         </div>
         <Navbar />
@@ -30,12 +27,7 @@ const shop = ({ data }) => {
             <div className="flex-wrap">
               <div className="shop_Locations_box_l">
                 <p>
-                  <img
-                    src="/images/shop_img01.jpg"
-                    width={271}
-                    height={183}
-                    alt=""
-                  />
+                  <img src="/images/shop_img01.jpg" width={271} height={183} alt="" />
                 </p>
               </div>
               <div className="shop_Locations_box_r">
@@ -94,9 +86,7 @@ const shop = ({ data }) => {
                 <span className="marker-blue">ペットホテル受付時間</span>
               </p>
 
-              <p>
-                午前8時から午後20時までの間であれば、お客様都合で受付・引取りも可能です。
-              </p>
+              <p>午前8時から午後20時までの間であれば、お客様都合で受付・引取りも可能です。</p>
             </div>
 
             <table className="legal_notice">
@@ -119,11 +109,7 @@ const shop = ({ data }) => {
             <ul>
               <li>
                 Webメディア
-                <a
-                  href="https://dogcatch.net/wanwannavi/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://dogcatch.net/wanwannavi/" target="_blank" rel="noopener noreferrer">
                   「犬の問題を解決するメディア|わんわんナビ」
                 </a>
                 にて、

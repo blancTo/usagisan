@@ -14,10 +14,7 @@ const chi = ({ data }) => {
       <Layout>
         <div id="mainimage">
           <div id="mainimage-inner">
-            <GatsbyImage
-              image={data.h_bn.childImageSharp.gatsbyImageData}
-              alt=""
-            />
+            <GatsbyImage image={data.h_bn.childImageSharp.gatsbyImageData} alt="" />
           </div>
         </div>
 
@@ -82,13 +79,7 @@ const chi = ({ data }) => {
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        width={105}
-                        height={50}
-                        align="center"
-                        valign="middle"
-                        className="border_b  border_r prpl"
-                      >
+                      <td width={105} height={50} align="center" valign="middle" className="border_b  border_r prpl">
                         23㎝～35㎝
                       </td>
                       <td
@@ -109,13 +100,7 @@ const chi = ({ data }) => {
                       >
                         高湿度・暑さ
                       </td>
-                      <td
-                        width={110}
-                        height={50}
-                        align="center"
-                        valign="middle"
-                        className="border_b border_l border_r"
-                      >
+                      <td width={110} height={50} align="center" valign="middle" className="border_b border_l border_r">
                         15年～20年
                       </td>
                     </tr>
@@ -140,13 +125,7 @@ const chi = ({ data }) => {
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={2}
-                        height={50}
-                        align="center"
-                        valign="middle"
-                        className="border_b  border_r prpl"
-                      >
+                      <td colSpan={2} height={50} align="center" valign="middle" className="border_b  border_r prpl">
                         毎日10分～30分、砂浴びをさせてください。
                       </td>
                       <td
@@ -171,12 +150,7 @@ const chi = ({ data }) => {
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={450}
-                        height={50}
-                        className="border_b border_r"
-                      >
+                      <td colSpan={4} width={450} height={50} className="border_b border_r">
                         アンデス山脈の山岳地帯、岩場
                       </td>
                     </tr>
@@ -192,12 +166,7 @@ const chi = ({ data }) => {
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={450}
-                        height={50}
-                        className="border_b border_r"
-                      >
+                      <td colSpan={4} width={450} height={50} className="border_b border_r">
                         牧草(チモシー9割、アルファルファ1割)ペレット(体重の1%)
                         <br />
                         週に一度"生"のクランベリー、ブルーベリーを2粒
@@ -215,12 +184,7 @@ const chi = ({ data }) => {
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={450}
-                        height={50}
-                        className=" border_r"
-                      >
+                      <td colSpan={4} width={450} height={50} className=" border_r">
                         ドライフルーツ、ショ糖、コーンスターチを含む乳酸菌、サプリを与えると消化器系を悪くするだけではなく、間接的に不正咬合、白内障、う食(虫歯)などを引き起こす可能性があるので与えないで下さい。※チンチラは胆嚢(たんのう)をもたないので多量の脂肪を消化することが出来ません。オートミール(えん麦、もみ殻)、ナッツ類は与えないで下さい
                       </td>
                     </tr>
@@ -239,11 +203,7 @@ const chi = ({ data }) => {
 
             <div className="flex-wrap">
               <div className="w40p">
-                <img
-                  alt=""
-                  src="/images/chi/767152fa-0c27-4485-acf1-eacc56731c70.jpg"
-                  width={200}
-                />
+                <img alt="" src="/images/chi/767152fa-0c27-4485-acf1-eacc56731c70.jpg" width={200} />
                 <br />
                 <br />
               </div>
@@ -251,52 +211,27 @@ const chi = ({ data }) => {
                 <table className="chi_table">
                   <tbody>
                     <tr>
-                      <th
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         毛色
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         ピュアホワイト
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         性別
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         女の子
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         コメント
                       </th>
                     </tr>
@@ -312,10 +247,7 @@ const chi = ({ data }) => {
 
             <p className="center">
               <Link to="/contact_c/">
-                <img
-                  src="/images/chi/chi_bg02.png"
-                  alt="お問い合わせ・ご予約希望の方は"
-                />
+                <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
               </Link>
             </p>
 
@@ -323,62 +255,33 @@ const chi = ({ data }) => {
 
             <div className="flex-wrap">
               <div className="w40p">
-                <img
-                  alt=""
-                  src="/images/chi/bf98b010-6cc8-4890-b3a0-14cc2e254346.jpg"
-                  width={200}
-                />
+                <img alt="" src="/images/chi/bf98b010-6cc8-4890-b3a0-14cc2e254346.jpg" width={200} />
               </div>
               <div className="w60p">
                 <table className="chi_table">
                   <tbody>
                     <tr>
-                      <th
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         毛色
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         パイド
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         性別
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         男の子
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         コメント
                       </th>
                     </tr>
@@ -394,10 +297,7 @@ const chi = ({ data }) => {
 
             <p className="center">
               <Link to="/contact_c/">
-                <img
-                  src="/images/chi/chi_bg02.png"
-                  alt="お問い合わせ・ご予約希望の方は"
-                />
+                <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
               </Link>
             </p>
 
@@ -405,62 +305,33 @@ const chi = ({ data }) => {
 
             <div className="flex-wrap">
               <div className="w40p">
-                <img
-                  alt=""
-                  src="/images/chi/f8fe8ae4-6e44-43b2-94af-aefde81e883d.jpg"
-                  width={200}
-                />
+                <img alt="" src="/images/chi/f8fe8ae4-6e44-43b2-94af-aefde81e883d.jpg" width={200} />
               </div>
               <div className="w60p">
                 <table className="chi_table">
                   <tbody>
                     <tr>
-                      <th
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         毛色
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         スタンダードグレー
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         性別
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         女の子
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         コメント
                       </th>
                     </tr>
@@ -476,10 +347,7 @@ const chi = ({ data }) => {
 
             <p className="center">
               <Link to="/contact_c/">
-                <img
-                  src="/images/chi/chi_bg02.png"
-                  alt="お問い合わせ・ご予約希望の方は"
-                />
+                <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
               </Link>
             </p>
 
@@ -487,63 +355,34 @@ const chi = ({ data }) => {
 
             <div className="flex-wrap">
               <div className="w40p">
-                <img
-                  alt=""
-                  src="/images/chi/a3f82054-88c0-4e1a-8323-71ac2f5b3f33.jpg"
-                  width={200}
-                />
+                <img alt="" src="/images/chi/a3f82054-88c0-4e1a-8323-71ac2f5b3f33.jpg" width={200} />
               </div>
 
               <div className="w60p">
                 <table className="chi_table">
                   <tbody>
                     <tr>
-                      <th
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         毛色
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         ブラックベルベット
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         性別
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         男の子
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         コメント
                       </th>
                     </tr>
@@ -559,10 +398,7 @@ const chi = ({ data }) => {
 
             <p className="center">
               <Link to="/contact_c/">
-                <img
-                  src="/images/chi/chi_bg02.png"
-                  alt="お問い合わせ・ご予約希望の方は"
-                />
+                <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
               </Link>
             </p>
 

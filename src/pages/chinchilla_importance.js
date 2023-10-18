@@ -14,10 +14,7 @@ const chinchilla_importance = ({ data }) => {
       <Layout>
         <div id="mainimage">
           <div id="mainimage-inner">
-            <GatsbyImage
-              image={data.h_bn.childImageSharp.gatsbyImageData}
-              alt=""
-            />
+            <GatsbyImage image={data.h_bn.childImageSharp.gatsbyImageData} alt="" />
           </div>
         </div>
         <Navbar />
@@ -25,11 +22,7 @@ const chinchilla_importance = ({ data }) => {
         <div id="main-content" className="flex-wrap">
           <div className="main-cont">
             <h3>
-              <img
-                src="/images/chinchilla_tit.png"
-                width={698}
-                alt="チンチラのご宿泊について重要視していること"
-              />
+              <img src="/images/chinchilla_tit.png" width={698} alt="チンチラのご宿泊について重要視していること" />
             </h3>
             <p className="blue bold">
               当店ではご宿泊していただく子達が安心して生活出来るようパーソナルスペースの環境作りを重要視しています。
@@ -42,18 +35,14 @@ const chinchilla_importance = ({ data }) => {
             <div className="list_box_ol">
               <ol>
                 <li>最も重要な栄養源である繊維質（チモシー）の大量給餌</li>
-                <li>
-                  砂浴び（毎日交換・頻繁に排尿する子には一日最大３回交換）
-                </li>
+                <li>砂浴び（毎日交換・頻繁に排尿する子には一日最大３回交換）</li>
                 <li>適度な運動器具を完備</li>
                 <li>安心して休める部屋</li>
                 <li>清潔な環境（毎日全ての器具を除菌します）</li>
               </ol>
             </div>
             <p>以上のことを徹底して行います。</p>
-            <p>
-              次にどのような牧草・砂・ペレットを使用しているのかについて説明します。
-            </p>
+            <p>次にどのような牧草・砂・ペレットを使用しているのかについて説明します。</p>
             <p className="title02">牧草は４種類常備しています。</p>
             <div className="list_box_ol">
               <ol>
@@ -85,9 +74,7 @@ const chinchilla_importance = ({ data }) => {
               <br />
               また小麦を使わないことで消化器系の負担が少ないものを使用しています。唯一のデメリットとしてあげれるのは「嗜好性が高くない」ことです。これは最大のメリットでもありますが、嗜好性の高いペレットを常時給餌している場合は食べない可能性があるので主原料が「アルファルファ」の場合は持参して頂くようお願いしています。
             </p>
-            <p>
-              当然すべてご宿泊費に含まれています。その他無料サービスも多くあります。
-            </p>
+            <p>当然すべてご宿泊費に含まれています。その他無料サービスも多くあります。</p>
             <p>
               お客様のご家族が使用している器具を使用することも可能です。その際はあらかじめ教えていただけると助かります。
             </p>

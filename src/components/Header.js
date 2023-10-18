@@ -24,12 +24,7 @@ const Header = () => {
               </div>
               <div className="pc">
                 <Link to="/contact_page.html">
-                  <StaticImage
-                    src="../images/common/header_img.png"
-                    alt=""
-                    width={463}
-                    height={108}
-                  />
+                  <StaticImage src="../images/common/header_img.png" alt="" width={463} height={108} />
                 </Link>
               </div>
             </div>

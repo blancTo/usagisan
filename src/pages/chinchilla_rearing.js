@@ -14,10 +14,7 @@ const chinchilla_rearing = ({ data }) => {
       <Layout>
         <div id="mainimage">
           <div id="mainimage-inner">
-            <GatsbyImage
-              image={data.h_bn.childImageSharp.gatsbyImageData}
-              alt=""
-            />
+            <GatsbyImage image={data.h_bn.childImageSharp.gatsbyImageData} alt="" />
           </div>
         </div>
         <Navbar />
@@ -25,11 +22,7 @@ const chinchilla_rearing = ({ data }) => {
         <div id="main-content" className="flex-wrap">
           <div className="main-cont">
             <h2>
-              <img
-                src="/images/chinchilla_tit2.png"
-                width={698}
-                alt="チンチラの飼育について"
-              />
+              <img src="/images/chinchilla_tit2.png" width={698} alt="チンチラの飼育について" />
             </h2>
             <p className="center">
               <img src="/images/chi/c1.png" width={208} height={156} alt="" />
@@ -46,19 +39,12 @@ const chinchilla_rearing = ({ data }) => {
               <img src="chi/pink.png" alt="" width="100%" />
             </div>
             <p className="title02 mt0 bold txt130p">
-              <img
-                src="/images/jyuyo_pic01.png"
-                width={76}
-                height={51}
-                alt=""
-              />
+              <img src="/images/jyuyo_pic01.png" width={76} height={51} alt="" />
               　チンチラの飼育で大切なポイント
             </p>
             <div className="list_box_ol">
               <ol>
-                <li>
-                  最も重要な栄養源である繊維質が豊富で低たんぱく・低糖質・低脂質の食生活の徹底
-                </li>
+                <li>最も重要な栄養源である繊維質が豊富で低たんぱく・低糖質・低脂質の食生活の徹底</li>
                 <li>砂浴び</li>
                 <li>適度な運動</li>
                 <li>安心して休める部屋</li>
@@ -127,9 +113,7 @@ const chinchilla_rearing = ({ data }) => {
               <br />
               一般的にはイネ科のチモシーを与えます。チモシーを選ぶ際「硬く」ないとダメだと思っている人が多いかもしれませんが、これは間違いです。
             </p>
-            <p className="title03 txt130p">
-              大切なのは「硬さ」ではなく「量」です。
-            </p>
+            <p className="title03 txt130p">大切なのは「硬さ」ではなく「量」です。</p>
             <p>
               量が大切理由は咀嚼回数を増やす必要があるからです。確りと咀嚼させることで口腔内の様々な問題を解決してくれます。人為的な理由で不正咬合を患うことがあります。理由はペレットの選択を間違える人が多いからです。
             </p>

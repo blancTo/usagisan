@@ -14,10 +14,7 @@ const chi2 = ({ data }) => {
       <Layout>
         <div id="mainimage">
           <div id="mainimage-inner">
-            <GatsbyImage
-              image={data.h_bn.childImageSharp.gatsbyImageData}
-              alt=""
-            />
+            <GatsbyImage image={data.h_bn.childImageSharp.gatsbyImageData} alt="" />
           </div>
         </div>
 
@@ -111,13 +108,7 @@ const chi2 = ({ data }) => {
             <table className="chi_table">
               <tbody>
                 <tr>
-                  <th
-                    colSpan={4}
-                    width={300}
-                    height={26}
-                    align="center"
-                    className="td_bg border_b_s green"
-                  >
+                  <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s green">
                     第一位
                   </th>
                 </tr>
@@ -127,13 +118,7 @@ const chi2 = ({ data }) => {
                   </td>
                 </tr>
                 <tr>
-                  <th
-                    colSpan={4}
-                    width={300}
-                    height={26}
-                    align="center"
-                    className="td_bg border_b_s green"
-                  >
+                  <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s green">
                     第二位
                   </th>
                 </tr>
@@ -143,13 +128,7 @@ const chi2 = ({ data }) => {
                   </td>
                 </tr>
                 <tr>
-                  <th
-                    colSpan={4}
-                    width={300}
-                    height={26}
-                    align="center"
-                    className="td_bg border_b_s green"
-                  >
+                  <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s green">
                     第三位
                   </th>
                 </tr>
@@ -178,10 +157,8 @@ const chi2 = ({ data }) => {
               乳酸菌サプリ
             </p>
             <p>
-              市販されている多くの乳酸菌はほぼ炭水化物です。
-              原材料にショ糖、小麦粉、
-              コーンスターチ、デンプン(澱粉)が入っているのは、腸内細菌のバラン
-              スを崩す恐れがあります。
+              市販されている多くの乳酸菌はほぼ炭水化物です。 原材料にショ糖、小麦粉、
+              コーンスターチ、デンプン(澱粉)が入っているのは、腸内細菌のバラン スを崩す恐れがあります。
             </p>
             <p className="menuTab" id={3}>
               オートミール
@@ -206,11 +183,7 @@ const chi2 = ({ data }) => {
               <table className="chi_table">
                 <tbody>
                   <tr>
-                    <th
-                      width={150}
-                      height={26}
-                      className="border_r border_b border_b2 green"
-                    >
+                    <th width={150} height={26} className="border_r border_b border_b2 green">
                       成長期{" "}
                     </th>
                     <td width={150} height={26} className="border_r border_b ">
@@ -221,33 +194,21 @@ const chi2 = ({ data }) => {
                     </td>
                   </tr>
                   <tr>
-                    <th
-                      width={150}
-                      height={26}
-                      className="border_r border_b border_b2 green"
-                    >
+                    <th width={150} height={26} className="border_r border_b border_b2 green">
                       維持期
                     </th>
                     <td className="border_r border_b ">1.5～2.0%</td>
                     <td className="border_b ">15～20g/日</td>
                   </tr>
                   <tr>
-                    <th
-                      width={150}
-                      height={26}
-                      className="border_r border_b border_b2 green"
-                    >
+                    <th width={150} height={26} className="border_r border_b border_b2 green">
                       高齢期
                     </th>
                     <td className="border_r border_b ">1.0%</td>
                     <td className=" border_b ">10g/日</td>
                   </tr>
                   <tr>
-                    <th
-                      width={150}
-                      height={26}
-                      className="border_r border_b2 green"
-                    >
+                    <th width={150} height={26} className="border_r border_b2 green">
                       肥満
                     </th>
                     <td className="border_r">1.0% </td>
@@ -272,8 +233,7 @@ const chi2 = ({ data }) => {
               <br />
               色や量の異常に気づくよう、トイレの下にペットシーツを使用してください。
               <br />
-              うさぎの尿は有色(赤褐色)です。灰色の排泄が多く見られた場合、獣医師に相談
-              してください。
+              うさぎの尿は有色(赤褐色)です。灰色の排泄が多く見られた場合、獣医師に相談 してください。
               <br />
               <br />
               毎日計量カップで飲水量を測定してください。
@@ -322,99 +282,48 @@ const chi2 = ({ data }) => {
 
             <div className="flex-wrap">
               <div className="w40p">
-                <img
-                  alt=""
-                  src="/images/chi2/f3097acc-7ecf-4a94-b65f-48f6c60bdf1f.jpg"
-                  width={200}
-                />
+                <img alt="" src="/images/chi2/f3097acc-7ecf-4a94-b65f-48f6c60bdf1f.jpg" width={200} />
               </div>
               <div className="w60p">
                 <table className="chi_table">
                   <tbody>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         種類
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td colSpan={4} width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         ラインランダー
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         性別
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td colSpan={4} width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         女の子
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         誕生日
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td colSpan={4} width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         2015年02月03日
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         コメント
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={300}
-                        height={50}
-                        style={{ padding: "5px" }}
-                      >
+                      <td colSpan={4} width={300} height={50} style={{ padding: "5px" }}>
                         とっても人懐こい子です。三毛柄の珍しいうさぎさんです。男の子もいます
                       </td>
                     </tr>
@@ -425,10 +334,7 @@ const chi2 = ({ data }) => {
 
             <p className="center">
               <Link to="/contact_c/">
-                <img
-                  src="/images/chi/chi_bg02.png"
-                  alt="お問い合わせ・ご予約希望の方は"
-                />
+                <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
               </Link>
             </p>
 
@@ -442,89 +348,42 @@ const chi2 = ({ data }) => {
                 <table className="chi_table">
                   <tbody>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         種類
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td colSpan={4} width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         ヒマラヤン
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         性別
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td colSpan={4} width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         女の子
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         誕生日
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td colSpan={4} width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         2015年02月14日
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         コメント
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={300}
-                        height={50}
-                        style={{ padding: "5px" }}
-                      >
+                      <td colSpan={4} width={300} height={50} style={{ padding: "5px" }}>
                         人懐こい子です。珍しいうさぎさん
                       </td>
                     </tr>
@@ -535,10 +394,7 @@ const chi2 = ({ data }) => {
 
             <p className="center">
               <Link to="/contact_c/">
-                <img
-                  src="/images/chi/chi_bg02.png"
-                  alt="お問い合わせ・ご予約希望の方は"
-                />
+                <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
               </Link>
             </p>
 
@@ -552,89 +408,42 @@ const chi2 = ({ data }) => {
                 <table className="chi_table">
                   <tbody>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         種類
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td colSpan={4} width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         フレミッシュジャイアント
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         性別
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td colSpan={4} width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         女の子
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         誕生日
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={300}
-                        height={50}
-                        className="border_b "
-                        style={{ padding: "5px" }}
-                      >
+                      <td colSpan={4} width={300} height={50} className="border_b " style={{ padding: "5px" }}>
                         2015年01月03日
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={300}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s   azuki green"
-                      >
+                      <th colSpan={4} width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
                         コメント
                       </th>
                     </tr>
                     <tr>
-                      <td
-                        colSpan={4}
-                        width={300}
-                        height={50}
-                        style={{ padding: "5px" }}
-                      >
+                      <td colSpan={4} width={300} height={50} style={{ padding: "5px" }}>
                         オランダ出身の可愛い女の子です。
                       </td>
                     </tr>
@@ -645,10 +454,7 @@ const chi2 = ({ data }) => {
 
             <p className="center">
               <Link to="/contact_c/">
-                <img
-                  src="/images/chi/chi_bg02.png"
-                  alt="お問い合わせ・ご予約希望の方は"
-                />
+                <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
               </Link>
             </p>
 

@@ -14,10 +14,7 @@ const usagicafe = ({ data }) => {
       <Layout>
         <div id="mainimage">
           <div id="mainimage-inner">
-            <GatsbyImage
-              image={data.cafe_head.childImageSharp.gatsbyImageData}
-              alt=""
-            />
+            <GatsbyImage image={data.cafe_head.childImageSharp.gatsbyImageData} alt="" />
           </div>
         </div>
 
@@ -26,12 +23,7 @@ const usagicafe = ({ data }) => {
         <div id="main-content" className="flex-wrap">
           <div className="main-cont">
             <h3>
-              <img
-                src="/images/cafe/usagicafe_tit.png"
-                width={698}
-                height={82}
-                alt="うさぎカフェについて"
-              />
+              <img src="/images/cafe/usagicafe_tit.png" width={698} height={82} alt="うさぎカフェについて" />
             </h3>
 
             <p>
@@ -70,12 +62,7 @@ const usagicafe = ({ data }) => {
 
             <div className="cafe_sn">
               <div className="cafe01_sn">
-                <img
-                  width="100%"
-                  height="auto"
-                  alt=""
-                  src="/images/cafe/IMG_2980.jpg"
-                />
+                <img width="100%" height="auto" alt="" src="/images/cafe/IMG_2980.jpg" />
               </div>
               <div className="cafe02_sn">
                 <span>
@@ -91,12 +78,7 @@ const usagicafe = ({ data }) => {
 
             <div className="cafe_sn">
               <div className="cafe01_sn">
-                <img
-                  width="100%"
-                  height="auto"
-                  alt=""
-                  src="/images/cafe/IMG_2973.jpg"
-                />
+                <img width="100%" height="auto" alt="" src="/images/cafe/IMG_2973.jpg" />
               </div>
               <div className="cafe02_sn">
                 <span>
@@ -112,12 +94,7 @@ const usagicafe = ({ data }) => {
 
             <div className="cafe_sn">
               <div className="cafe01_sn">
-                <img
-                  width="100%"
-                  height="auto"
-                  alt=""
-                  src="/images/cafe/IMG_2972.jpg"
-                />
+                <img width="100%" height="auto" alt="" src="/images/cafe/IMG_2972.jpg" />
               </div>
               <div className="cafe02_sn">
                 <span>
@@ -133,12 +110,7 @@ const usagicafe = ({ data }) => {
 
             <div className="cafe_sn">
               <div className="cafe01_sn">
-                <img
-                  width="100%"
-                  height="auto"
-                  alt=""
-                  src="/images/cafe/cafe3.png"
-                />
+                <img width="100%" height="auto" alt="" src="/images/cafe/cafe3.png" />
               </div>
               <div className="cafe02_sn">
                 <span>
@@ -154,12 +126,7 @@ const usagicafe = ({ data }) => {
 
             <div className="cafe_sn">
               <div className="cafe01_sn">
-                <img
-                  width="100%"
-                  height="auto"
-                  alt=""
-                  src="/images/cafe/cafe4.png"
-                />
+                <img width="100%" height="auto" alt="" src="/images/cafe/cafe4.png" />
               </div>
               <div className="cafe02_sn">
                 <span>
@@ -175,12 +142,7 @@ const usagicafe = ({ data }) => {
 
             <div className="cafe_sn">
               <div className="cafe01_sn">
-                <img
-                  width="100%"
-                  height="auto"
-                  alt=""
-                  src="/images/cafe/cafe5.png"
-                />
+                <img width="100%" height="auto" alt="" src="/images/cafe/cafe5.png" />
               </div>
               <div className="cafe02_sn">
                 <span>
@@ -196,12 +158,7 @@ const usagicafe = ({ data }) => {
 
             <div className="cafe_sn">
               <div className="cafe01_sn">
-                <img
-                  width="100%"
-                  height="auto"
-                  alt=""
-                  src="/images/cafe/cafe6.png"
-                />
+                <img width="100%" height="auto" alt="" src="/images/cafe/cafe6.png" />
               </div>
               <div className="cafe02_sn">
                 <span>
@@ -219,11 +176,7 @@ const usagicafe = ({ data }) => {
             <h3 className="cafe_h2">うさぎさん</h3>
 
             <p>
-              <span
-                itemProp="address"
-                itemScope
-                itemType="https://schema.org/PostalAddress"
-              >
+              <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
                 <span itemProp="addressRegion">東京都</span>
                 <span itemProp="addressLocality">台東区</span>
                 <span itemProp="streetAddress">
@@ -266,8 +219,7 @@ const jsonLd = {
             "@type": "WebPage",
             "@id": "https://usagisan.info/",
             name: "うさぎペットホテル・うさぎカフェ【うさぎさん】",
-            description:
-              "埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
+            description: "埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
             url: "https://usagisan.info/",
           },
           nextItem: "https://usagisan.info/usagicafe/#listItem",
@@ -280,8 +232,7 @@ const jsonLd = {
             "@type": "WebPage",
             "@id": "https://usagisan.info/usagicafe/",
             name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜うさぎカフェ",
-            description:
-              "埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」｜猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。｜うさぎカフェ",
+            description: "埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」｜猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。｜うさぎカフェ",
             url: "https://usagisan.info/usagicafe/",
           },
           previousItem: "https://usagisan.info/#listItem",
@@ -297,8 +248,7 @@ const jsonLd = {
       "@id": "https://usagisan.info/usagicafe/#webpage",
       url: "https://usagisan.info/usagicafe/",
       name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜うさぎカフェ",
-      description:
-        "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
       inLanguage: "ja",
       isPartOf: {
         "@id": "https://usagisan.info/usagicafe/#website",
@@ -314,8 +264,7 @@ const jsonLd = {
       "@id": "https://usagisan.info/usagicafe/#website",
       url: "https://usagisan.info/usagicafe/",
       name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜うさぎカフェ",
-      description:
-        "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
       inLanguage: "ja",
       publisher: {
         "@id": "https://usagisan.info/usagicafe/#person",
@@ -327,11 +276,7 @@ const jsonLd = {
 export const Head = () => (
   <>
     <body id="pagetop" />
-    <Seo
-      title="うさぎカフェ"
-      description="うさぎペットホテル・うさぎカフェ、チンチラ専門店をお探しなら【うさぎさん】へ。こちらのページでは、当店が運営しているうさぎカフェをご紹介しております。かわいいうさぎさんのイメージ写真も掲載しておりますのでぜひご覧ください。"
-      article={true}
-    />
+    <Seo title="うさぎカフェ" description="うさぎペットホテル・うさぎカフェ、チンチラ専門店をお探しなら【うさぎさん】へ。こちらのページでは、当店が運営しているうさぎカフェをご紹介しております。かわいいうさぎさんのイメージ写真も掲載しておりますのでぜひご覧ください。" article={true} />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )
