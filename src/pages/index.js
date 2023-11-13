@@ -34,11 +34,11 @@ const index = ({ data }) => {
           <div className="main-cont">
             <div className="smp center">
               <p className="side_txt_top">
-                ご予定確定後予約お願いします。
+                年末年始も確実にご宿泊可能です。
                 <br />
-                連休やレジャーシーズンでも確実に
+                ご予定確定後、予約していただけると
                 <br />
-                お部屋を確保できます。
+                有り難いです。
               </p>
               <Link to="/contact_hotel.html">
                 <StaticImage src="../images/hotel_contact_btn.png" alt="ペットホテルのお問い合わせ・ご予約はこちらから" />
