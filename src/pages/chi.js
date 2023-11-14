@@ -174,7 +174,7 @@ const chi = ({ data }) => {
             </div>
 
             <p className="center">
-              <Link to="/contact_c/">
+              <Link to="/contact_c_page.html">
                 <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
               </Link>
             </p>
@@ -224,7 +224,7 @@ const chi = ({ data }) => {
             </div>
 
             <p className="center">
-              <Link to="/contact_c/">
+              <Link to="/contact_c_page.html">
                 <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
               </Link>
             </p>
@@ -274,7 +274,7 @@ const chi = ({ data }) => {
             </div>
 
             <p className="center">
-              <Link to="/contact_c/">
+              <Link to="/contact_c_page.html">
                 <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
               </Link>
             </p>
@@ -325,7 +325,7 @@ const chi = ({ data }) => {
             </div>
 
             <p className="center">
-              <Link to="/contact_c/">
+              <Link to="/contact_c_page.html">
                 <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
               </Link>
             </p>
