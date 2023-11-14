@@ -36,13 +36,7 @@ const chi2 = ({ data }) => {
             <table className="chi_table">
               <tbody>
                 <tr>
-                  <th
-                    colSpan={4}
-                    width={450}
-                    height={26}
-                    align="center"
-                    className="td_bg border_b_s  border_r azuki green"
-                  >
+                  <th colSpan={4} width={450} height={26} align="center" className="td_bg border_b_s  border_r azuki green">
                     飼い主さんが毎日行う健康管理
                   </th>
                 </tr>
@@ -54,13 +48,7 @@ const chi2 = ({ data }) => {
                   </td>
                 </tr>
                 <tr>
-                  <th
-                    colSpan={4}
-                    width={450}
-                    height={26}
-                    align="center"
-                    className="td_bg border_b_s  border_r azuki green"
-                  >
+                  <th colSpan={4} width={450} height={26} align="center" className="td_bg border_b_s  border_r azuki green">
                     体重測定
                   </th>
                 </tr>
@@ -140,26 +128,19 @@ const chi2 = ({ data }) => {
               </tbody>
             </table>
 
-            <p className="box_cream">
-              上記のものを与えると、間接的に消化器症候群、不正咬合、う食(虫歯)を引き起こす可能性があります。
-            </p>
+            <p className="box_cream">上記のものを与えると、間接的に消化器症候群、不正咬合、う食(虫歯)を引き起こす可能性があります。</p>
 
             <p className="menuTab" id={1}>
               ドライフルーツ
             </p>
             <p>
-              毛球症予防フードとしてドライフルーツが販売されていますが、与えるメリット
-              はなく無駄に糖質を摂取させるだけです。
-              毛球症予防に必要なのは、パパイヤ、パイナップルに含まれる『酵素』です。
+              毛球症予防フードとしてドライフルーツが販売されていますが、与えるメリット はなく無駄に糖質を摂取させるだけです。 毛球症予防に必要なのは、パパイヤ、パイナップルに含まれる『酵素』です。
               <br />
             </p>
             <p className="menuTab" id={2}>
               乳酸菌サプリ
             </p>
-            <p>
-              市販されている多くの乳酸菌はほぼ炭水化物です。 原材料にショ糖、小麦粉、
-              コーンスターチ、デンプン(澱粉)が入っているのは、腸内細菌のバラン スを崩す恐れがあります。
-            </p>
+            <p>市販されている多くの乳酸菌はほぼ炭水化物です。 原材料にショ糖、小麦粉、 コーンスターチ、デンプン(澱粉)が入っているのは、腸内細菌のバラン スを崩す恐れがあります。</p>
             <p className="menuTab" id={3}>
               オートミール
             </p>
@@ -264,8 +245,7 @@ const chi2 = ({ data }) => {
               <br />
               <br />
               <br />
-              その他・過剰なグルーミング、歩様の異常、下顎のよだれ、流涙、クシャミ、
-              咳、歯ぎしり、うずくまる姿勢、などを観察しましょう。
+              その他・過剰なグルーミング、歩様の異常、下顎のよだれ、流涙、クシャミ、 咳、歯ぎしり、うずくまる姿勢、などを観察しましょう。
               <br />
               <br />
               <strong>推奨環境</strong>
@@ -492,8 +472,7 @@ const jsonLd = {
             "@type": "WebPage",
             "@id": "https://usagisan.info/",
             name: "うさぎペットホテル・うさぎカフェ【うさぎさん】",
-            description:
-              "埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
+            description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
             url: "https://usagisan.info/",
           },
           nextItem: "https://usagisan.info/chi2/#listItem",
@@ -506,8 +485,7 @@ const jsonLd = {
             "@type": "WebPage",
             "@id": "https://usagisan.info/chi2/",
             name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜うさぎ｜げっ歯目｜うさぎ・チンチラ専門店",
-            description:
-              "埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」｜猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。｜うさぎ｜げっ歯目｜うさぎ・チンチラ専門店",
+            description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。｜うさぎ｜げっ歯目｜うさぎ・チンチラ専門店",
             url: "https://usagisan.info/chi2/",
           },
           previousItem: "https://usagisan.info/#listItem",
@@ -523,8 +501,7 @@ const jsonLd = {
       "@id": "https://usagisan.info/chi2/#webpage",
       url: "https://usagisan.info/chi2/",
       name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜うさぎ｜げっ歯目｜うさぎ・チンチラ専門店",
-      description:
-        "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
       inLanguage: "ja",
       isPartOf: {
         "@id": "https://usagisan.info/chi2/#website",
@@ -540,8 +517,7 @@ const jsonLd = {
       "@id": "https://usagisan.info/chi2/#website",
       url: "https://usagisan.info/chi2/",
       name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜うさぎ｜げっ歯目｜うさぎ・チンチラ専門店",
-      description:
-        "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
       inLanguage: "ja",
       publisher: {
         "@id": "https://usagisan.info/chi2/#person",
@@ -553,11 +529,7 @@ const jsonLd = {
 export const Head = () => (
   <>
     <body id="pagetop" />
-    <Seo
-      title="うさぎ｜げっ歯目｜うさぎ・チンチラ専門店"
-      description="チンチラ専門店（うさぎ専門店）うさぎさん（ペットホテル＆うさカフェ（チンチラカフェ））は、JR山手線鶯谷駅から５分の場所にある、午前中からお預け可能で長期利用も可能な格安ペットホテル・チンチラカフェ・うさカフェをはじめ、純血種のうさぎ・チンチラを販売もしております。"
-      article={true}
-    />
+    <Seo title="うさぎ｜げっ歯目｜うさぎ・チンチラ専門店" description="チンチラ専門店（うさぎ専門店）うさぎさん（ペットホテル＆うさカフェ（チンチラカフェ））は、JR山手線鶯谷駅から５分の場所にある、午前中からお預け可能で長期利用も可能な格安ペットホテル・チンチラカフェ・うさカフェをはじめ、純血種のうさぎ・チンチラを販売もしております。" article={true} />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )

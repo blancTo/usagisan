@@ -53,12 +53,7 @@ const products = () => {
             </div>
             <div className="products_sn">
               <div className="products01_sn">
-                <img
-                  src="/images/products/4f94d1fb-a001-450e-9eed-1a5941c2ab76.jpg"
-                  width="100%"
-                  height="auto"
-                  alt=""
-                />
+                <img src="/images/products/4f94d1fb-a001-450e-9eed-1a5941c2ab76.jpg" width="100%" height="auto" alt="" />
               </div>
               <div className="products02_sn">
                 <span>
@@ -70,12 +65,7 @@ const products = () => {
             </div>
             <div className="products_sn">
               <div className="products01_sn">
-                <img
-                  src="/images/products/7b4f6f15-9a5c-4037-a912-7a5fc254310d.jpg"
-                  width="100%"
-                  height="auto"
-                  alt=""
-                />
+                <img src="/images/products/7b4f6f15-9a5c-4037-a912-7a5fc254310d.jpg" width="100%" height="auto" alt="" />
               </div>
               <div className="products02_sn">
                 <span>
@@ -87,12 +77,7 @@ const products = () => {
             </div>
             <div className="products_sn">
               <div className="products01_sn">
-                <img
-                  src="/images/products/86480a00-789b-4b0f-8c81-30797b97d6e5.jpg"
-                  width="100%"
-                  height="auto"
-                  alt=""
-                />
+                <img src="/images/products/86480a00-789b-4b0f-8c81-30797b97d6e5.jpg" width="100%" height="auto" alt="" />
               </div>
               <div className="products02_sn">
                 <span>
@@ -104,17 +89,10 @@ const products = () => {
             </div>
             <div className="products_sn">
               <div className="products01_sn">
-                <img
-                  src="/images/products/5ae636da-0d19-41f1-aa52-99255497fe4d.jpg"
-                  width="100%"
-                  height="auto"
-                  alt=""
-                />
+                <img src="/images/products/5ae636da-0d19-41f1-aa52-99255497fe4d.jpg" width="100%" height="auto" alt="" />
               </div>
               <div className="products02_sn">
-                <span>
-                  今年生まれのピュアホワイト、アルビノなどのホワイト系のチンチラのご予約承ります。雌雄の希望がある場合はお問い合わせ時にお伝えください。
-                </span>
+                <span>今年生まれのピュアホワイト、アルビノなどのホワイト系のチンチラのご予約承ります。雌雄の希望がある場合はお問い合わせ時にお伝えください。</span>
               </div>
             </div>
             <div className="products_sn">
@@ -134,9 +112,7 @@ const products = () => {
                 <img src="/images/products/20150523104142.jpg" width="100%" height="auto" alt="" />
               </div>
               <div className="products02_sn">
-                <span>
-                  今年生まれのピュアホワイト、アルビノなどのホワイト系のチンチラのご予約承ります。雌雄の希望がある場合はお問い合わせ時にお伝えください。
-                </span>
+                <span>今年生まれのピュアホワイト、アルビノなどのホワイト系のチンチラのご予約承ります。雌雄の希望がある場合はお問い合わせ時にお伝えください。</span>
               </div>
             </div>
             <div>
@@ -168,8 +144,7 @@ const jsonLd = {
             "@type": "WebPage",
             "@id": "https://usagisan.info/",
             name: "うさぎペットホテル・うさぎカフェ【うさぎさん】",
-            description:
-              "埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
+            description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
             url: "https://usagisan.info/",
           },
           nextItem: "https://usagisan.info/products/#listItem",
@@ -182,8 +157,7 @@ const jsonLd = {
             "@type": "WebPage",
             "@id": "https://usagisan.info/products/",
             name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜販売ベビー",
-            description:
-              "埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」｜販売ベビー｜猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。",
+            description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
             url: "https://usagisan.info/products/",
           },
           previousItem: "https://usagisan.info/#listItem",
@@ -199,8 +173,7 @@ const jsonLd = {
       "@id": "https://usagisan.info/products/#webpage",
       url: "https://usagisan.info/products/",
       name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜販売ベビー",
-      description:
-        "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
       inLanguage: "ja",
       isPartOf: {
         "@id": "https://usagisan.info/products/#website",
@@ -216,8 +189,7 @@ const jsonLd = {
       "@id": "https://usagisan.info/products/#website",
       url: "https://usagisan.info/products/",
       name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜販売ベビー",
-      description:
-        "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
       inLanguage: "ja",
       publisher: {
         "@id": "https://usagisan.info/products/#person",
@@ -229,11 +201,7 @@ const jsonLd = {
 export const Head = () => (
   <>
     <body id="pagetop" />
-    <Seo
-      title="販売ベビー"
-      description="うさぎペットホテル、うさぎカフェ、チンチラ専門店をお探しなら【ウサギさん】へ。午前中からのお預けや、長期利用も可能なペットホテルです。お預かり可能動物はチンチラ・ジリス・モルモット等の小動物です。最大割引50％OFFの1080円?また毎週月曜日14時から営業しております。"
-      article={true}
-    />
+    <Seo title="販売ベビー" description="うさぎペットホテル、うさぎカフェ、チンチラ専門店をお探しなら【ウサギさん】へ。午前中からのお預けや、長期利用も可能なペットホテルです。お預かり可能動物はチンチラ・ジリス・モルモット等の小動物です。最大割引50％OFFの1080円?また毎週月曜日14時から営業しております。" article={true} />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )

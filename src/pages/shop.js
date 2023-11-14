@@ -52,9 +52,7 @@ const shop = ({ data }) => {
                   <br />
                   メールアドレス info@usagisan.info
                   <br />
-                  <span className="red">
-                    大変ご不便をおかけしますが、基本固定電話対応は行なっておりません。すべてのお問い合わせは、上記メールアドレス、携帯電話、またはお問い合わせページからお願いいたします
-                  </span>
+                  <span className="red">大変ご不便をおかけしますが、基本固定電話対応は行なっておりません。すべてのお問い合わせは、上記メールアドレス、携帯電話、またはお問い合わせページからお願いいたします</span>
                   <br />
                   ご協力のほどよろしくお願い申し上げます。
                 </div>
@@ -116,11 +114,7 @@ const shop = ({ data }) => {
                 <br />
                 うさぎさんが紹介されました！詳細は以下よりご覧ください。
                 <br />
-                <a
-                  href="https://dogcatch.net/wanwannavi/tokyotonai-dobutsukafue-osusume/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://dogcatch.net/wanwannavi/tokyotonai-dobutsukafue-osusume/" target="_blank" rel="noopener noreferrer">
                   東京都内にある動物カフェおすすめ8選！かわいい犬・猫に癒される
                 </a>
               </li>
@@ -149,8 +143,7 @@ const jsonLd = {
             "@type": "WebPage",
             "@id": "https://usagisan.info/",
             name: "うさぎペットホテル・うさぎカフェ【うさぎさん】",
-            description:
-              "埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
+            description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
             url: "https://usagisan.info/",
           },
           nextItem: "https://usagisan.info/shop/#listItem",
@@ -163,8 +156,7 @@ const jsonLd = {
             "@type": "WebPage",
             "@id": "https://usagisan.info/shop/",
             name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜SHOP INFORMATION",
-            description:
-              "埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」｜猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。｜SHOP INFORMATION",
+            description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。｜SHOP INFORMATION",
             url: "https://usagisan.info/shop/",
           },
           previousItem: "https://usagisan.info/#listItem",
@@ -180,8 +172,7 @@ const jsonLd = {
       "@id": "https://usagisan.info/shop/#webpage",
       url: "https://usagisan.info/shop/",
       name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜SHOP INFORMATION",
-      description:
-        "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
       inLanguage: "ja",
       isPartOf: {
         "@id": "https://usagisan.info/shop/#website",
@@ -197,8 +188,7 @@ const jsonLd = {
       "@id": "https://usagisan.info/shop/#website",
       url: "https://usagisan.info/shop/",
       name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜SHOP INFORMATION",
-      description:
-        "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
       inLanguage: "ja",
       publisher: {
         "@id": "https://usagisan.info/shop/#person",
@@ -210,11 +200,7 @@ const jsonLd = {
 export const Head = () => (
   <>
     <body id="pagetop" />
-    <Seo
-      title="SHOP INFORMATION"
-      description="うさぎペットホテル、うさぎカフェ、チンチラ専門店をお探しならをお探しなら【ウサギさん】へお越しください。こちらは当店の紹介ページになります。営業時間、受付時間等のご確認をこちらのページをご確認下さいませ。"
-      article={true}
-    />
+    <Seo title="SHOP INFORMATION" description="うさぎペットホテル、うさぎカフェ、チンチラ専門店をお探しならをお探しなら【ウサギさん】へお越しください。こちらは当店の紹介ページになります。営業時間、受付時間等のご確認をこちらのページをご確認下さいませ。" article={true} />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )

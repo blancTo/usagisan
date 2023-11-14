@@ -41,40 +41,16 @@ const chi = ({ data }) => {
                 <table className="chi_table">
                   <tbody>
                     <tr>
-                      <th
-                        width={105}
-                        height={26}
-                        align="center"
-                        valign="middle"
-                        className="td_bg border_b_s  azuki green"
-                      >
+                      <th width={105} height={26} align="center" valign="middle" className="td_bg border_b_s  azuki green">
                         体長
                       </th>
-                      <th
-                        width={115}
-                        height={26}
-                        align="center"
-                        valign="middle"
-                        className="td_bg border_b_s border_l azuki green"
-                      >
+                      <th width={115} height={26} align="center" valign="middle" className="td_bg border_b_s border_l azuki green">
                         体重
                       </th>
-                      <th
-                        width={105}
-                        height={26}
-                        align="center"
-                        valign="middle"
-                        className="td_bg border_b_s border_l azuki green"
-                      >
+                      <th width={105} height={26} align="center" valign="middle" className="td_bg border_b_s border_l azuki green">
                         NG環境
                       </th>
-                      <th
-                        width={110}
-                        height={26}
-                        align="center"
-                        valign="middle"
-                        className="td_bg border_b_s border_l border_r azuki green"
-                      >
+                      <th width={110} height={26} align="center" valign="middle" className="td_bg border_b_s border_l border_r azuki green">
                         寿命
                       </th>
                     </tr>
@@ -82,22 +58,10 @@ const chi = ({ data }) => {
                       <td width={105} height={50} align="center" valign="middle" className="border_b  border_r prpl">
                         23㎝～35㎝
                       </td>
-                      <td
-                        width={115}
-                        height={50}
-                        align="center"
-                        valign="middle"
-                        className="border_b border_l border_r prpl"
-                      >
+                      <td width={115} height={50} align="center" valign="middle" className="border_b border_l border_r prpl">
                         <span className="male">400g～550g</span>
                       </td>
-                      <td
-                        width={105}
-                        height={50}
-                        align="center"
-                        valign="middle"
-                        className="border_b border_l border_r prpl"
-                      >
+                      <td width={105} height={50} align="center" valign="middle" className="border_b border_l border_r prpl">
                         高湿度・暑さ
                       </td>
                       <td width={110} height={50} align="center" valign="middle" className="border_b border_l border_r">
@@ -105,22 +69,10 @@ const chi = ({ data }) => {
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        colSpan={2}
-                        height={26}
-                        align="center"
-                        valign="middle"
-                        className="td_bg border_b_s  azuki green"
-                      >
+                      <th colSpan={2} height={26} align="center" valign="middle" className="td_bg border_b_s  azuki green">
                         毎日行ってほしいこと
                       </th>
-                      <th
-                        colSpan={2}
-                        height={26}
-                        align="center"
-                        valign="middle"
-                        className="td_bg border_b_s border_l azuki green"
-                      >
+                      <th colSpan={2} height={26} align="center" valign="middle" className="td_bg border_b_s border_l azuki green">
                         推奨環境
                       </th>
                     </tr>
@@ -128,24 +80,12 @@ const chi = ({ data }) => {
                       <td colSpan={2} height={50} align="center" valign="middle" className="border_b  border_r prpl">
                         毎日10分～30分、砂浴びをさせてください。
                       </td>
-                      <td
-                        colSpan={2}
-                        height={50}
-                        align="center"
-                        valign="middle"
-                        className="border_b border_l border_r prpl"
-                      >
+                      <td colSpan={2} height={50} align="center" valign="middle" className="border_b border_l border_r prpl">
                         <span className="male">湿度20～40% 温度15～21度</span>
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={450}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s  border_r azuki green"
-                      >
+                      <th colSpan={4} width={450} height={26} align="center" className="td_bg border_b_s  border_r azuki green">
                         生息地
                       </th>
                     </tr>
@@ -155,13 +95,7 @@ const chi = ({ data }) => {
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={450}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s  border_r azuki green"
-                      >
+                      <th colSpan={4} width={450} height={26} align="center" className="td_bg border_b_s  border_r azuki green">
                         食餌
                       </th>
                     </tr>
@@ -173,13 +107,7 @@ const chi = ({ data }) => {
                       </td>
                     </tr>
                     <tr>
-                      <th
-                        colSpan={4}
-                        width={450}
-                        height={26}
-                        align="center"
-                        className="td_bg border_b_s  border_r azuki green"
-                      >
+                      <th colSpan={4} width={450} height={26} align="center" className="td_bg border_b_s  border_r azuki green">
                         食餌での注意点
                       </th>
                     </tr>
@@ -437,8 +365,7 @@ const jsonLd = {
             "@type": "WebPage",
             "@id": "https://usagisan.info/",
             name: "うさぎペットホテル・うさぎカフェ【うさぎさん】",
-            description:
-              "埼玉のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」にお任せ下さい。猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。サービス提供エリア（さいたま市、川越市、所沢市、新座市、朝霞市、狭山市）",
+            description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
             url: "https://usagisan.info/",
           },
           nextItem: "https://usagisan.info/chi/#listItem",
@@ -451,8 +378,7 @@ const jsonLd = {
             "@type": "WebPage",
             "@id": "https://usagisan.info/chi/",
             name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜チンチラ｜げっ歯目｜うさぎ・チンチラ専門店",
-            description:
-              "埼玉県のペット火葬・葬儀のことなら「愛心ペットセレモニー埼玉」｜猫・犬はもちろん、うさぎや小鳥の火葬・葬儀も対応。｜チンチラ｜げっ歯目｜うさぎ・チンチラ専門店",
+            description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。｜チンチラ｜げっ歯目｜うさぎ・チンチラ専門店",
             url: "https://usagisan.info/chi/",
           },
           previousItem: "https://usagisan.info/#listItem",
@@ -468,8 +394,7 @@ const jsonLd = {
       "@id": "https://usagisan.info/chi/#webpage",
       url: "https://usagisan.info/chi/",
       name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜チンチラ｜げっ歯目｜うさぎ・チンチラ専門店",
-      description:
-        "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
       inLanguage: "ja",
       isPartOf: {
         "@id": "https://usagisan.info/chi/#website",
@@ -485,8 +410,7 @@ const jsonLd = {
       "@id": "https://usagisan.info/chi/#website",
       url: "https://usagisan.info/chi/",
       name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜チンチラ｜げっ歯目｜うさぎ・チンチラ専門店",
-      description:
-        "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
       inLanguage: "ja",
       publisher: {
         "@id": "https://usagisan.info/chi/#person",
@@ -498,11 +422,7 @@ const jsonLd = {
 export const Head = () => (
   <>
     <body id="pagetop" />
-    <Seo
-      title="チンチラ｜げっ歯目｜うさぎ・チンチラ専門店"
-      description="チンチラ専門店（うさぎ専門店）うさぎさん（ペットホテル＆うさカフェ（チンチラカフェ））は、JR山手線鶯谷駅から５分の場所にある、午前中からお預け可能で長期利用も可能な格安ペットホテル・チンチラカフェ・うさカフェをはじめ、純血種のうさぎ・チンチラを販売もしております。"
-      article={true}
-    />
+    <Seo title="チンチラ｜げっ歯目｜うさぎ・チンチラ専門店" description="チンチラ専門店（うさぎ専門店）うさぎさん（ペットホテル＆うさカフェ（チンチラカフェ））は、JR山手線鶯谷駅から５分の場所にある、午前中からお預け可能で長期利用も可能な格安ペットホテル・チンチラカフェ・うさカフェをはじめ、純血種のうさぎ・チンチラを販売もしております。" article={true} />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )
