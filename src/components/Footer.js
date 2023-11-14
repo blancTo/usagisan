@@ -28,7 +28,7 @@ const Footer = () => {
                   <Link to="/shop/">SHOP INFOMATION</Link>
                 </li>
                 <li>
-                  <Link to="/Toiawase/">問い合わせ予約フォーム</Link>
+                  <Link to="/toiawase/">問い合わせ予約フォーム</Link>
                 </li>
                 <li>
                   <Link to="/rabbit_rearing/">うさぎの飼育</Link>

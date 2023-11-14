@@ -33,7 +33,7 @@ const Sidebar = () => {
           <Link to="/shop/">
             <StaticImage src="../images/common/sider_nav04.jpg" width={199} height={36} alt="SHOP INFOMATIO" />
           </Link>
-          <Link to="/Toiawase/">
+          <Link to="/toiawase/">
             <StaticImage src="../images/common/sider_nav05.jpg" width={199} height={36} alt="お問い合わせ" />
           </Link>
           <Link to="/hotel/">

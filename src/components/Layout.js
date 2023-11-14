@@ -2,7 +2,6 @@ import React from "react"
 
 import Header from "./Header"
 
-import "../styles/main.scss"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 

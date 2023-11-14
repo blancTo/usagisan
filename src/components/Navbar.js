@@ -35,7 +35,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/Toiawase/">
+              <Link to="/toiawase/">
                 <StaticImage src="../images/common/gnav_06.jpg" alt="お問い合わせ" />
               </Link>
             </li>
