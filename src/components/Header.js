@@ -14,16 +14,11 @@ const Header = () => {
             <div className="h_logo_box">
               <div className="h_logo">
                 <Link to="/">
-                  <StaticImage
-                    src="../images/common/logo.png"
-                    width={439}
-                    height={107}
-                    alt="うさぎカフェ、ペットホテルなら【うさぎさん】"
-                  />
+                  <StaticImage src="../images/common/logo.png" width={439} height={107} alt="うさぎカフェ、ペットホテルなら【うさぎさん】" />
                 </Link>
               </div>
               <div className="pc">
-                <Link to="/contact_page.html">
+                <Link to="/toiawase/">
                   <StaticImage src="../images/common/header_img.png" alt="" width={463} height={108} />
                 </Link>
               </div>
@@ -53,7 +48,7 @@ const Header = () => {
                       <Link to="/shop/">SHOP INFOMATION</Link>
                     </li>
                     <li className="gnav__menu__item">
-                      <Link to="/contact_page.html">お問い合わせ</Link>
+                      <Link to="/toiawase/">お問い合わせ</Link>
                     </li>
                   </ul>
                 </div>

@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 import { Timeline } from "react-twitter-widgets"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -33,7 +33,7 @@ const Sidebar = () => {
           <Link to="/shop/">
             <StaticImage src="../images/common/sider_nav04.jpg" width={199} height={36} alt="SHOP INFOMATIO" />
           </Link>
-          <Link to="/contact_page.html">
+          <Link to="/toiawase/">
             <StaticImage src="../images/common/sider_nav05.jpg" width={199} height={36} alt="お問い合わせ" />
           </Link>
           <Link to="/hotel/">
@@ -47,7 +47,7 @@ const Sidebar = () => {
           <StaticImage src="../images/chi/usa_bt.png" width={250} height={70} alt="「うさぎはこちら」販売ベビーと飼育の仕方" />
         </Link>
         <Link to="/voice/">
-          <StaticImage src="../images/voice_bn.gif" width={250} height={83} alt="お客様の声はこちら" />
+          <StaticImage src="../images/voice_bn.jpg" width={250} height={83} alt="お客様の声はこちら" />
         </Link>
         <a href="http://www.tokiwa-r.co.jp/chintaikanriblog/1151/" target="_blank" rel="noopener noreferrer">
           <StaticImage src="../images/side_bn01.jpg" width={250} height={220} alt="始発駅1分の立地にうさぎとの共生空間を提供" />
@@ -87,13 +87,3 @@ const Sidebar = () => {
 }
 
 export default Sidebar
-
-export const query = graphql`
-  query {
-    talentbn: file(relativePath: { eq: "talent_bn.png" }) {
-      childImageSharp {
-        gatsbyImageData(layout: FULL_WIDTH)
-      }
-    }
-  }
-`

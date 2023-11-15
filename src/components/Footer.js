@@ -1,17 +1,9 @@
 import React from "react"
-
-import Header from "./Header"
-
-import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
-
-const Layout = ({ children }) => {
+import { StaticImage } from "gatsby-plugin-image"
+const Footer = () => {
   return (
     <>
-      <Header />
-
-      <div id="content">{children}</div>
-
       <footer>
         <div id="footer">
           <div id="footer-inner">
@@ -36,7 +28,7 @@ const Layout = ({ children }) => {
                   <Link to="/shop/">SHOP INFOMATION</Link>
                 </li>
                 <li>
-                  <Link to="/contact_page.html">問い合わせ予約フォーム</Link>
+                  <Link to="/toiawase/">問い合わせ予約フォーム</Link>
                 </li>
                 <li>
                   <Link to="/rabbit_rearing/">うさぎの飼育</Link>
@@ -66,4 +58,4 @@ const Layout = ({ children }) => {
   )
 }
 
-export default Layout
+export default Footer

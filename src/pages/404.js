@@ -1,33 +1,31 @@
 import React from "react"
-
-import { GatsbyImage } from "gatsby-plugin-image"
-import { graphql } from "gatsby"
-
+import { Link } from "gatsby"
 import Seo from "../components/Seo"
-import Layout from "../components/Layout"
-import Navbar from "../components/Navbar"
-import Sidebar from "../components/Sidebar"
+import LayoutNew from "../components/LayoutNew"
 
-const NotFound = ({ data }) => {
+const NotFound = () => {
+  const imageName = "h_banner"
   return (
     <>
-      <Layout>
-        <div id="mainimage">
-          <div id="mainimage-inner">
-            <GatsbyImage image={data.h_bn.childImageSharp.gatsbyImageData} alt="" />
-          </div>
-        </div>
-        <Navbar />
-
-        <div id="main-content" className="flex-wrap">
-          <div className="main-cont">
-            <h2>404</h2>
-            <p>Sorry, thats page doesn't exist</p>
-          </div>
-
-          <Sidebar />
-        </div>
-      </Layout>
+      <LayoutNew imageName={imageName}>
+        <h2 className="title404">404 お探しの記事は見つかりませんでした。</h2>
+        <p className="center">
+          うさぎペットホテル・うさぎカフェ【うさぎさん】のWEBサイトを
+          <br />
+          ご覧頂きありがとうございます。
+          <br />
+          大変申し訳ないのですが、あなたがアクセスしようとしたページは
+          <br />
+          削除されたかURLが変更されています。
+          <br />
+          お手数をおかけしますが、以下の方法からもう一度目的のページをお探し下さい。
+        </p>
+        <p className="center">
+          <Link to="/" className="bt01">
+            トップページへ戻る
+          </Link>
+        </p>
+      </LayoutNew>
     </>
   )
 }
@@ -106,17 +104,7 @@ const jsonLd = {
 export const Head = () => (
   <>
     <body id="pagetop" />
-    <Seo title="ページが見つかりません" description="お探しのページは、移動または削除された可能性があります。" article="true" />
+    <Seo title="ページが見つかりません" description2="お探しのページは、移動または削除された可能性があります。" article="true" />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )
-
-export const query = graphql`
-  query {
-    h_bn: file(relativePath: { eq: "h_banner.png" }) {
-      childImageSharp {
-        gatsbyImageData(width: 970, layout: CONSTRAINED)
-      }
-    }
-  }
-`
