@@ -599,7 +599,7 @@ const jsonLd = {
       "@id": "https://usagisan.info/rabbit_vegetable/#webpage",
       url: "https://usagisan.info/rabbit_vegetable/",
       name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜うさぎの飼育　生野菜の給餌について",
-      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。｜うさぎの飼育　生野菜の給餌について",
       inLanguage: "ja",
       isPartOf: {
         "@id": "https://usagisan.info/rabbit_vegetable/#website",
@@ -615,7 +615,7 @@ const jsonLd = {
       "@id": "https://usagisan.info/rabbit_vegetable/#website",
       url: "https://usagisan.info/rabbit_vegetable/",
       name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜うさぎの飼育　生野菜の給餌について",
-      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。｜うさぎの飼育　生野菜の給餌について",
       inLanguage: "ja",
       publisher: {
         "@id": "https://usagisan.info/rabbit_vegetable/#person",
@@ -627,7 +627,7 @@ const jsonLd = {
 export const Head = () => (
   <>
     <body id="pagetop" />
-    <Seo title="うさぎの飼育　生野菜の給餌について" description="チンチラ専門店（うさぎ専門店）うさぎさん（ペットホテル＆うさカフェ（チンチラカフェ））は、JR山手線鶯谷駅から５分の場所にある、午前中からお預け可能で長期利用も可能な格安ペットホテル・チンチラカフェ・うさカフェをはじめ、純血種のうさぎ・チンチラを販売もしております。" article={true} />
+    <Seo title="うさぎの飼育　生野菜の給餌について" description2="チンチラ専門店（うさぎ専門店）うさぎさん（ペットホテル＆うさカフェ（チンチラカフェ））は、JR山手線鶯谷駅から５分の場所にある、午前中からお預け可能で長期利用も可能な格安ペットホテル・チンチラカフェ・うさカフェをはじめ、純血種のうさぎ・チンチラを販売もしております。" article={true} />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
 )
