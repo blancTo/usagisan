@@ -188,13 +188,6 @@ const HotelToiawase = () => {
                   </select>
                   日
                   <select name="お預かり日(時)" required="required">
-                    <option value="01">01</option>
-                    <option value="02">02</option>
-                    <option value="03">03</option>
-                    <option value="04">04</option>
-                    <option value="05">05</option>
-                    <option value="06">06</option>
-                    <option value="07">07</option>
                     <option value="08">08</option>
                     <option value="09">09</option>
                     <option value="10">10</option>
@@ -208,10 +201,6 @@ const HotelToiawase = () => {
                     <option value="18">18</option>
                     <option value="19">19</option>
                     <option value="20">20</option>
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option>
-                    <option value="24">24</option>
                   </select>
                   時
                 </td>
@@ -272,13 +261,6 @@ const HotelToiawase = () => {
                   </select>
                   日
                   <select name="お引き取り日(時)" required="required">
-                    <option value="01">01</option>
-                    <option value="02">02</option>
-                    <option value="03">03</option>
-                    <option value="04">04</option>
-                    <option value="05">05</option>
-                    <option value="06">06</option>
-                    <option value="07">07</option>
                     <option value="08">08</option>
                     <option value="09">09</option>
                     <option value="10">10</option>
@@ -292,10 +274,6 @@ const HotelToiawase = () => {
                     <option value="18">18</option>
                     <option value="19">19</option>
                     <option value="20">20</option>
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option>
-                    <option value="24">24</option>
                   </select>
                   時
                 </td>
