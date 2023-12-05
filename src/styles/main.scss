@@ -1323,3 +1323,45 @@ footer {
     width: calc(100% / 2);
   }
 }
+
+/*フォーム部分*/
+
+/* 入力エラーのスタイル */
+input[type="text"]:required,
+input[type="text"]:invalid,
+input[type="email"]:required,
+input[type="email"]:invalid,
+input[type="tel"]:required,
+input[type="tel"]:invalid,
+select:required,
+textarea:required {
+  color: #630015;
+  border-color: #c20c33;
+  background-color: #ffecf0;
+}
+
+/* 入力値が正常な時のスタイル */
+input[type="text"]:valid,
+input[type="email"]:valid,
+input[type="tel"]:valid,
+select:valid,
+textarea:valid {
+  color: #333;
+  border-color: #ccc;
+  background: #fff;
+}
+
+/*クリックされたときにplaceholder非表示*/
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+input:focus::-ms-input-placeholder {
+  color: transparent;
+}
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: transparent;
+}
