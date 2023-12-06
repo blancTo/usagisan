@@ -29,78 +29,78 @@ const chi = () => {
             <table className="chi_table">
               <tbody>
                 <tr>
-                  <th width={105} height={26} align="center" valign="middle" className="td_bg border_b_s  azuki green">
+                  <th align="center" valign="middle" className="td_bg border_b_s  azuki green">
                     体長
                   </th>
-                  <th width={115} height={26} align="center" valign="middle" className="td_bg border_b_s border_l azuki green">
+                  <th align="center" valign="middle" className="td_bg border_b_s border_l azuki green">
                     体重
                   </th>
-                  <th width={105} height={26} align="center" valign="middle" className="td_bg border_b_s border_l azuki green">
+                  <th align="center" valign="middle" className="td_bg border_b_s border_l azuki green">
                     NG環境
                   </th>
-                  <th width={110} height={26} align="center" valign="middle" className="td_bg border_b_s border_l border_r azuki green">
+                  <th align="center" valign="middle" className="td_bg border_b_s border_l border_r azuki green">
                     寿命
                   </th>
                 </tr>
                 <tr>
-                  <td width={105} height={50} align="center" valign="middle" className="border_b  border_r prpl">
+                  <td align="center" valign="middle" className="border_b  border_r prpl">
                     23㎝～35㎝
                   </td>
-                  <td width={115} height={50} align="center" valign="middle" className="border_b border_l border_r prpl">
+                  <td align="center" valign="middle" className="border_b border_l border_r prpl">
                     <span className="male">400g～550g</span>
                   </td>
-                  <td width={105} height={50} align="center" valign="middle" className="border_b border_l border_r prpl">
+                  <td align="center" valign="middle" className="border_b border_l border_r prpl">
                     高湿度・暑さ
                   </td>
-                  <td width={110} height={50} align="center" valign="middle" className="border_b border_l border_r">
+                  <td align="center" valign="middle" className="border_b border_l border_r">
                     15年～20年
                   </td>
                 </tr>
                 <tr>
-                  <th colSpan={2} height={26} align="center" valign="middle" className="td_bg border_b_s  azuki green">
+                  <th colSpan={2} align="center" valign="middle" className="td_bg border_b_s  azuki green">
                     毎日行ってほしいこと
                   </th>
-                  <th colSpan={2} height={26} align="center" valign="middle" className="td_bg border_b_s border_l azuki green">
+                  <th colSpan={2} align="center" valign="middle" className="td_bg border_b_s border_l azuki green">
                     推奨環境
                   </th>
                 </tr>
                 <tr>
-                  <td colSpan={2} height={50} align="center" valign="middle" className="border_b  border_r prpl">
+                  <td colSpan={2} align="center" valign="middle" className="border_b  border_r prpl">
                     毎日10分～30分、砂浴びをさせてください。
                   </td>
-                  <td colSpan={2} height={50} align="center" valign="middle" className="border_b border_l border_r prpl">
+                  <td colSpan={2} align="center" valign="middle" className="border_b border_l border_r prpl">
                     <span className="male">湿度20～40% 温度15～21度</span>
                   </td>
                 </tr>
                 <tr>
-                  <th colSpan={4} width={450} height={26} align="center" className="td_bg border_b_s  border_r azuki green">
+                  <th colSpan={4} align="center" className="td_bg border_b_s  border_r azuki green">
                     生息地
                   </th>
                 </tr>
                 <tr>
-                  <td colSpan={4} width={450} height={50} className="border_b border_r">
+                  <td colSpan={4} className="border_b border_r">
                     アンデス山脈の山岳地帯、岩場
                   </td>
                 </tr>
                 <tr>
-                  <th colSpan={4} width={450} height={26} align="center" className="td_bg border_b_s  border_r azuki green">
+                  <th colSpan={4} align="center" className="td_bg border_b_s  border_r azuki green">
                     食餌
                   </th>
                 </tr>
                 <tr>
-                  <td colSpan={4} width={450} height={50} className="border_b border_r">
+                  <td colSpan={4} className="border_b border_r">
                     牧草(チモシー9割、アルファルファ1割)ペレット(体重の1%)
                     <br />
                     週に一度"生"のクランベリー、ブルーベリーを2粒
                   </td>
                 </tr>
                 <tr>
-                  <th colSpan={4} width={450} height={26} align="center" className="td_bg border_b_s  border_r azuki green">
+                  <th colSpan={4} align="center" className="td_bg border_b_s  border_r azuki green">
                     食餌での注意点
                   </th>
                 </tr>
                 <tr>
-                  <td colSpan={4} width={450} height={50} className=" border_r">
+                  <td colSpan={4} className=" border_r">
                     ドライフルーツ、ショ糖、コーンスターチを含む乳酸菌、サプリを与えると消化器系を悪くするだけではなく、間接的に不正咬合、白内障、う食(虫歯)などを引き起こす可能性があるので与えないで下さい。※チンチラは胆嚢(たんのう)をもたないので多量の脂肪を消化することが出来ません。オートミール(えん麦、もみ殻)、ナッツ類は与えないで下さい
                   </td>
                 </tr>
@@ -127,34 +127,32 @@ const chi = () => {
             <table className="chi_table">
               <tbody>
                 <tr>
-                  <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
+                  <th align="center" className="td_bg border_b_s   azuki green">
                     毛色
                   </th>
                 </tr>
                 <tr>
-                  <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
+                  <td className="border_b " style={{ padding: "5px" }}>
                     ピュアホワイト
                   </td>
                 </tr>
                 <tr>
-                  <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
+                  <th align="center" className="td_bg border_b_s   azuki green">
                     性別
                   </th>
                 </tr>
                 <tr>
-                  <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
+                  <td className="border_b " style={{ padding: "5px" }}>
                     女の子
                   </td>
                 </tr>
                 <tr>
-                  <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
+                  <th align="center" className="td_bg border_b_s   azuki green">
                     コメント
                   </th>
                 </tr>
                 <tr>
-                  <td width={300} height={50} style={{ padding: "5px" }}>
-                    珍しいカラーのチンチラさんです
-                  </td>
+                  <td style={{ padding: "5px" }}>珍しいカラーのチンチラさんです</td>
                 </tr>
               </tbody>
             </table>
@@ -177,34 +175,32 @@ const chi = () => {
             <table className="chi_table">
               <tbody>
                 <tr>
-                  <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
+                  <th align="center" className="td_bg border_b_s   azuki green">
                     毛色
                   </th>
                 </tr>
                 <tr>
-                  <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
+                  <td className="border_b " style={{ padding: "5px" }}>
                     パイド
                   </td>
                 </tr>
                 <tr>
-                  <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
+                  <th align="center" className="td_bg border_b_s   azuki green">
                     性別
                   </th>
                 </tr>
                 <tr>
-                  <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
+                  <td className="border_b " style={{ padding: "5px" }}>
                     男の子
                   </td>
                 </tr>
                 <tr>
-                  <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
+                  <th align="center" className="td_bg border_b_s   azuki green">
                     コメント
                   </th>
                 </tr>
                 <tr>
-                  <td width={300} height={50} style={{ padding: "5px" }}>
-                    とっても可愛いチンチラさんです。
-                  </td>
+                  <td style={{ padding: "5px" }}>とっても可愛いチンチラさんです。</td>
                 </tr>
               </tbody>
             </table>
@@ -227,34 +223,32 @@ const chi = () => {
             <table className="chi_table">
               <tbody>
                 <tr>
-                  <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
+                  <th align="center" className="td_bg border_b_s   azuki green">
                     毛色
                   </th>
                 </tr>
                 <tr>
-                  <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
+                  <td className="border_b " style={{ padding: "5px" }}>
                     スタンダードグレー
                   </td>
                 </tr>
                 <tr>
-                  <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
+                  <th align="center" className="td_bg border_b_s   azuki green">
                     性別
                   </th>
                 </tr>
                 <tr>
-                  <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
+                  <td className="border_b " style={{ padding: "5px" }}>
                     女の子
                   </td>
                 </tr>
                 <tr>
-                  <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
+                  <th align="center" className="td_bg border_b_s   azuki green">
                     コメント
                   </th>
                 </tr>
                 <tr>
-                  <td width={300} height={50} style={{ padding: "5px" }}>
-                    可愛いチンチラさんです。
-                  </td>
+                  <td style={{ padding: "5px" }}>可愛いチンチラさんです。</td>
                 </tr>
               </tbody>
             </table>
@@ -278,34 +272,32 @@ const chi = () => {
             <table className="chi_table">
               <tbody>
                 <tr>
-                  <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
+                  <th align="center" className="td_bg border_b_s   azuki green">
                     毛色
                   </th>
                 </tr>
                 <tr>
-                  <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
+                  <td className="border_b " style={{ padding: "5px" }}>
                     ブラックベルベット
                   </td>
                 </tr>
                 <tr>
-                  <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
+                  <th align="center" className="td_bg border_b_s   azuki green">
                     性別
                   </th>
                 </tr>
                 <tr>
-                  <td width={300} height={50} className="border_b " style={{ padding: "5px" }}>
+                  <td className="border_b " style={{ padding: "5px" }}>
                     男の子
                   </td>
                 </tr>
                 <tr>
-                  <th width={300} height={26} align="center" className="td_bg border_b_s   azuki green">
+                  <th align="center" className="td_bg border_b_s   azuki green">
                     コメント
                   </th>
                 </tr>
                 <tr>
-                  <td width={300} height={50} style={{ padding: "5px" }}>
-                    ポテっとした頬がとっても可愛い甘えん坊の男の子です。写真の子とは別に兄弟の女の子もいます。
-                  </td>
+                  <td style={{ padding: "5px" }}>ポテっとした頬がとっても可愛い甘えん坊の男の子です。写真の子とは別に兄弟の女の子もいます。</td>
                 </tr>
               </tbody>
             </table>

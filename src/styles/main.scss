@@ -202,9 +202,15 @@ a {
 }
 .w40p {
   width: 40%;
+  @media not screen and (min-width: 767px) {
+    width: 100%;
+  }
 }
 .w60p {
   width: 60%;
+  @media not screen and (min-width: 767px) {
+    width: 100%;
+  }
 }
 
 .pl3p {
@@ -1041,6 +1047,7 @@ footer {
   border: solid 3px #785a2d;
   border-collapse: collapse;
   th {
+    font-size: 1.4rem;
     padding: 10px;
     border-bottom: #785a2d 1px dotted;
     background-color: #fcf5e3;
@@ -1050,6 +1057,7 @@ footer {
     border-right: 1px solid #785a2d;
   }
   td {
+    font-size: 1.4rem;
     padding: 10px;
     border-right: 1px solid #785a2d;
     border-left: 1px solid #785a2d;
