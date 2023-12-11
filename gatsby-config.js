@@ -4,6 +4,10 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: "うさぎペットホテル・うさぎカフェ【うさぎさん】",
@@ -49,6 +53,31 @@ module.exports = {
       options: {
         siteUrl: `https://usagisan.info`,
       },
+    },
+
+    {
+      resolve: "gatsby-source-microcms",
+      options: {
+        apiKey: process.env.API_KEY,
+        serviceId: "usagisan",
+        apis: [
+          {
+            endpoint: "posts",
+          },
+          {
+            endpoint: "category",
+          },
+        ],
+      },
+    },
+    {
+      resolve: "@mako-tos/gatsby-images-microcms",
+      options: [
+        {
+          mediaType: "microcmsBlog", // string
+          field: "eyecatch", // string
+        },
+      ],
     },
   ],
 }
