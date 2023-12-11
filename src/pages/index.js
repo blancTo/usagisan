@@ -15,6 +15,7 @@ import LayoutNew from "../components/LayoutNew"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faQ, faA } from "@fortawesome/free-solid-svg-icons"
+import TopNews from "../components/TopNews"
 
 const index = ({ data }) => {
   const imageName = "h_banner"
@@ -232,7 +233,7 @@ const index = ({ data }) => {
         <h3>
           <StaticImage src="../images/index_tit03.jpg" alt="新着情報" />
         </h3>
-        <ul>
+        <ul className="top_post_list">
           <li>
             Webメディア
             <a href="https://dogcatch.net/wanwannavi/" target="_blank" rel="noopener noreferrer">
@@ -247,6 +248,7 @@ const index = ({ data }) => {
             </a>
           </li>
         </ul>
+        <TopNews />
 
         <h3>
           <StaticImage src="../images/title_pic04.jpg" alt="アクセスマップ" />

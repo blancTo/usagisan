@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import axios from "axios"
 
 const AddressForm = () => {
   const imageName = "toiawase_img"
