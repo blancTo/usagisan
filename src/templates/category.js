@@ -44,7 +44,7 @@ const CategoryPage = ({ data, pageContext }) => {
               </div>
             )}
             <div className="post_txt">
-              <time dateTime={node.createdAt}>{node.updatedAt}</time>
+              <time dateTime={node.date}>{node.date}</time>
               <br />
               <Link href={"/posts/" + node.postsId + "/"}>{node.title}</Link>
               <br />
@@ -96,7 +96,7 @@ export const query = graphql`
             url
           }
           content
-          date
+          date(formatString: "YYYY年MM月DD日")
           updatedAt(formatString: "YYYY年MM月DD日")
           createdAt(formatString: "YYYY-MM-DDTHH:MM")
           category {
