@@ -101,14 +101,6 @@ const HotelToiawase = () => {
               </tr>
               <tr>
                 <th>
-                  <span className="red">*</span>電話番号
-                </th>
-                <td>
-                  <input type="tel" data-type="tel" name="電話番号" size={16} data-min={9} required="required" />
-                </td>
-              </tr>
-              <tr>
-                <th>
                   <span className="red">*</span>携帯番号
                 </th>
                 <td>
