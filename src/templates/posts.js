@@ -24,12 +24,6 @@ const PostPage = ({ data }) => {
         <article className="posts_box">
           <h2 className="posts_title">{data.microcmsPosts.title}</h2>
 
-          {data.microcmsPosts.eyecatch && (
-            <div className="eyecatch_img">
-              <img src={data.microcmsPosts.eyecatch.url + "?fm=webp"} width={data.microcmsPosts.eyecatch.width} height={data.microcmsPosts.eyecatch.height} alt={data.microcmsPosts.title + "サムネイル画像"} loading="lazy" />
-            </div>
-          )}
-
           <div
             className="post_main_box"
             dangerouslySetInnerHTML={{
