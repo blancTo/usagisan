@@ -2,7 +2,7 @@ import React from "react"
 import Seo from "../components/Seo"
 import LayoutNew from "../components/LayoutNew"
 
-const ChinchillaToawase = () => {
+const CotanctCPage = () => {
   const imageName = "toiawase_img"
 
   return (
@@ -247,4 +247,4 @@ export const Head = () => (
   </>
 )
 
-export default ChinchillaToawase
+export default CotanctCPage

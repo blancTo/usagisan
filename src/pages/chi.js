@@ -160,7 +160,7 @@ const chi = () => {
         </div>
 
         <p className="center">
-          <Link to="/chinchilla_toawase/">
+          <Link to="/contact_c_page/">
             <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
           </Link>
         </p>
@@ -208,7 +208,7 @@ const chi = () => {
         </div>
 
         <p className="center">
-          <Link to="/chinchilla_toawase/">
+          <Link to="/contact_c_page/">
             <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
           </Link>
         </p>
@@ -256,7 +256,7 @@ const chi = () => {
         </div>
 
         <p className="center">
-          <Link to="/chinchilla_toawase/">
+          <Link to="/contact_c_page/">
             <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
           </Link>
         </p>
@@ -305,7 +305,7 @@ const chi = () => {
         </div>
 
         <p className="center">
-          <Link to="/chinchilla_toawase/">
+          <Link to="/contact_c_page/">
             <img src="/images/chi/chi_bg02.png" alt="お問い合わせ・ご予約希望の方は" />
           </Link>
         </p>

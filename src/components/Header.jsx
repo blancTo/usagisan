@@ -18,7 +18,7 @@ const Header = () => {
                 </Link>
               </div>
               <div className="pc">
-                <Link to="/toiawase/">
+                <Link to="/contact_page/">
                   <StaticImage src="../images/common/header_img.png" alt="" width={463} height={108} />
                 </Link>
               </div>
@@ -48,7 +48,7 @@ const Header = () => {
                       <Link to="/shop/">SHOP INFOMATION</Link>
                     </li>
                     <li className="gnav__menu__item">
-                      <Link to="/toiawase/">お問い合わせ</Link>
+                      <Link to="/contact_page/">お問い合わせ</Link>
                     </li>
                   </ul>
                 </div>

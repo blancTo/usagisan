@@ -31,10 +31,10 @@ const index = ({ data }) => {
             <br />
             有り難いです。
           </p>
-          <Link to="/hotel_toiawase/">
+          <Link to="/contact_hotel/">
             <StaticImage src="../images/hotel_contact_btn.png" alt="ペットホテルのお問い合わせ・ご予約はこちらから" />
           </Link>
-          <Link to="/cafe_toiawase/">
+          <Link to="/contact_cafe/">
             <StaticImage src="../images/cafe_contact_btn.png" alt="うさぎカフェ問い合わせ・ご予約はこちらから" />
           </Link>
           <a href="tel:08043837060">

@@ -1,190 +1,21 @@
 import React, { useState } from "react"
-
 import Seo from "../components/Seo"
 import LayoutNew from "../components/LayoutNew"
 
-const Toiawase = () => {
+const ContactHotel = () => {
   const imageName = "toiawase_img"
-  const [showInput, setShowInput] = useState(false)
-
-  const handleRadioChange = event => {
-    setShowInput(event.target.value === "ペットホテル")
-  }
-
   const [selectedPrefecture, setSelectedPrefecture] = useState("")
   const prefectures = ["北海道", "青森県", "岩手県", "秋田県", "宮城県", "山形県", "福島県", "栃木県", "群馬県", "茨城県", "埼玉県", "東京都", "千葉県", "神奈川県", "山梨県", "長野県", "新潟県", "富山県", "石川県", "福井県", "静岡県", "岐阜県", "愛知県", "三重県", "滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県", "徳島県", "香川県", "愛媛県", "高知県", "鳥取県", "島根県", "岡山県", "広島県", "山口県", "福岡県", "佐賀県", "長崎県", "大分県", "熊本県", "宮崎県", "鹿児島県", "沖縄県"]
-
   return (
     <>
       <LayoutNew imageName={imageName}>
-        <h2>
-          <img src="/images/contact_tit.jpg" alt="ペットホテル&カフェお問い合わせフォーム" />
-        </h2>
-        <form action="https://ssgform.com/s/VkA5NzIT7mYX" method="post" id="mailform">
+        <h3 class="form_maintitle">ペットホテル予約フォーム</h3>
+        <form action="https://ssgform.com/s/6lAbCrpW3ijP" method="post" id="mailform">
           <div style={{ display: "none" }}>
             <input type="text" name="wana" />
           </div>
           <table className="form">
             <tbody>
-              <tr>
-                <th>
-                  <span className="red">*</span>ご用件
-                </th>
-                <td>
-                  <label>
-                    <input type="radio" name="ご用件" value="うさぎカフェ" onChange={handleRadioChange} required="required" /> うさぎカフェ
-                  </label>
-                  <label>
-                    <input type="radio" name="ご用件" value="ペットホテル" onChange={handleRadioChange} required="required" /> ペットホテル
-                  </label>
-
-                  {showInput && (
-                    <span id="pet_hotel">
-                      <p>
-                        <span className="red bold">*</span>
-                        <span className="bold">お預かり日</span>
-                        <br />
-                        <select name="お預かり日(月)">
-                          <option value="01">01</option>
-                          <option value="02">02</option>
-                          <option value="03">03</option>
-                          <option value="04">04</option>
-                          <option value="05">05</option>
-                          <option value="06">06</option>
-                          <option value="07">07</option>
-                          <option value="08">08</option>
-                          <option value="09">09</option>
-                          <option value="10">10</option>
-                          <option value="11">11</option>
-                          <option value="12">12</option>
-                        </select>
-                        &nbsp;月&nbsp;
-                        <select name="お預かり日(日)">
-                          <option value="01">01</option>
-                          <option value="02">02</option>
-                          <option value="03">03</option>
-                          <option value="04">04</option>
-                          <option value="05">05</option>
-                          <option value="06">06</option>
-                          <option value="07">07</option>
-                          <option value="08">08</option>
-                          <option value="09">09</option>
-                          <option value="10">10</option>
-                          <option value="11">11</option>
-                          <option value="12">12</option>
-                          <option value="13">13</option>
-                          <option value="14">14</option>
-                          <option value="15">15</option>
-                          <option value="16">16</option>
-                          <option value="17">17</option>
-                          <option value="18">18</option>
-                          <option value="19">19</option>
-                          <option value="20">20</option>
-                          <option value="21">21</option>
-                          <option value="22">22</option>
-                          <option value="23">23</option>
-                          <option value="24">24</option>
-                          <option value="25">25</option>
-                          <option value="26">26</option>
-                          <option value="27">27</option>
-                          <option value="28">28</option>
-                          <option value="29">29</option>
-                          <option value="30">30</option>
-                          <option value="31">31</option>
-                        </select>
-                        &nbsp;日&nbsp;
-                        <select name="お預かり日(時)">
-                          <option value="08">08</option>
-                          <option value="09">09</option>
-                          <option value="10">10</option>
-                          <option value="11">11</option>
-                          <option value="12">12</option>
-                          <option value="13">13</option>
-                          <option value="14">14</option>
-                          <option value="15">15</option>
-                          <option value="16">16</option>
-                          <option value="17">17</option>
-                          <option value="18">18</option>
-                          <option value="19">19</option>
-                          <option value="20">20</option>
-                        </select>
-                        &nbsp;時
-                      </p>
-
-                      <p>
-                        <span className="red bold">*</span>
-                        <span className="bold">お引き取り日</span>
-                        <br />
-                        <select name="お引き取り日(月)">
-                          <option value="01">01</option>
-                          <option value="02">02</option>
-                          <option value="03">03</option>
-                          <option value="04">04</option>
-                          <option value="05">05</option>
-                          <option value="06">06</option>
-                          <option value="07">07</option>
-                          <option value="08">08</option>
-                          <option value="09">09</option>
-                          <option value="10">10</option>
-                          <option value="11">11</option>
-                          <option value="12">12</option>
-                        </select>
-                        &nbsp;月&nbsp;
-                        <select name="お引き取り日(日)">
-                          <option value="01">01</option>
-                          <option value="02">02</option>
-                          <option value="03">03</option>
-                          <option value="04">04</option>
-                          <option value="05">05</option>
-                          <option value="06">06</option>
-                          <option value="07">07</option>
-                          <option value="08">08</option>
-                          <option value="09">09</option>
-                          <option value="10">10</option>
-                          <option value="11">11</option>
-                          <option value="12">12</option>
-                          <option value="13">13</option>
-                          <option value="14">14</option>
-                          <option value="15">15</option>
-                          <option value="16">16</option>
-                          <option value="17">17</option>
-                          <option value="18">18</option>
-                          <option value="19">19</option>
-                          <option value="20">20</option>
-                          <option value="21">21</option>
-                          <option value="22">22</option>
-                          <option value="23">23</option>
-                          <option value="24">24</option>
-                          <option value="25">25</option>
-                          <option value="26">26</option>
-                          <option value="27">27</option>
-                          <option value="28">28</option>
-                          <option value="29">29</option>
-                          <option value="30">30</option>
-                          <option value="31">31</option>
-                        </select>
-                        &nbsp;日&nbsp;
-                        <select name="お引き取り日(時)">
-                          <option value="08">08</option>
-                          <option value="09">09</option>
-                          <option value="10">10</option>
-                          <option value="11">11</option>
-                          <option value="12">12</option>
-                          <option value="13">13</option>
-                          <option value="14">14</option>
-                          <option value="15">15</option>
-                          <option value="16">16</option>
-                          <option value="17">17</option>
-                          <option value="18">18</option>
-                          <option value="19">19</option>
-                          <option value="20">20</option>
-                        </select>
-                        時
-                      </p>
-                    </span>
-                  )}
-                </td>
-              </tr>
               <tr>
                 <th>ご注意ください。</th>
                 <td>
@@ -216,7 +47,7 @@ const Toiawase = () => {
                   <span className="red">*</span>お名前
                 </th>
                 <td>
-                  <input type="text" name="お名前" size={40} required="required" />
+                  <input type="text" name="お名前" size={45} required="required" />
                 </td>
               </tr>
               <tr>
@@ -293,6 +124,152 @@ const Toiawase = () => {
                   </label>
                 </td>
               </tr>
+              <tr>
+                <th>
+                  <span className="red bold">*</span>
+                  <span className="bold">お預かり日</span>
+                </th>
+                <td>
+                  <select name="お預かり日(月)" required="required">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                  月
+                  <select name="お預かり日(日)" required="required">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                  </select>
+                  日
+                  <select name="お預かり日(時)" required="required">
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                  </select>
+                  時
+                </td>
+              </tr>
+              <tr>
+                <th>
+                  <span className="red bold">*</span>
+                  <span className="bold">お引き取り日</span>
+                </th>
+                <td>
+                  <select name="お引き取り日(月)" required="required">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                  月
+                  <select name="お引き取り日(日)" required="required">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                  </select>
+                  日
+                  <select name="お引き取り日(時)" required="required">
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                  </select>
+                  時
+                </td>
+              </tr>
             </tbody>
           </table>
           <h3 className="form_title">ご家族の情報</h3>
@@ -301,7 +278,7 @@ const Toiawase = () => {
               <tr>
                 <th>お名前</th>
                 <td>
-                  <input type="text" name="ご家族のお名前" size={45} />
+                  <input type="text" name="ご家族のお名前" size={40} />
                 </td>
               </tr>
               <tr>
@@ -425,8 +402,8 @@ const Toiawase = () => {
               </tr>
             </tbody>
           </table>
-          <p className="mtb15">
-            ＊ペットホテルご利用のお客様は住所をご入力ください。
+          <p class="mtb15">
+            ＊住所は必ずご入力ください。
             <br />
             ※お迎えの日から1日経ってもご連絡なしにお迎えに来ない場合は、状況に応じて動物愛護法に基づき対処させていただきます。
           </p>
@@ -450,7 +427,7 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "BreadcrumbList",
-      "@id": "https://usagisan.info/hotel/#breadcrumblist",
+      "@id": "https://usagisan.info/contact_hotel/#breadcrumblist",
       itemListElement: [
         {
           "@type": "ListItem",
@@ -463,18 +440,18 @@ const jsonLd = {
             description: "うさぎのペットホテル＆うさぎカフェは、JR山手線鶯谷駅から徒歩5分の場所にあります。愛されるうさぎさんたちの安心・安全・快適な宿泊環境を提供しています。併設のうさぎカフェでは、愛らしいうさぎさんたちと触れ合いながら、お茶やスイーツを楽しむことができます。",
             url: "https://usagisan.info/",
           },
-          nextItem: "https://usagisan.info/toiawase/#listItem",
+          nextItem: "https://usagisan.info/contact_hotel/#listItem",
         },
         {
           "@type": "ListItem",
-          "@id": "https://usagisan.info/toiawase/#listItem",
+          "@id": "https://usagisan.info/contact_hotel/#listItem",
           position: 2,
           item: {
             "@type": "WebPage",
-            "@id": "https://usagisan.info/toiawase/",
-            name: "うさぎペットホテル・うさぎカフェ【うさぎさん】｜ペットホテル",
-            description: "うさぎペットホテルをお探しなら【ウサギさん】のお問い合わせフォームです。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。｜ペットホテル",
-            url: "https://usagisan.info/toiawase/",
+            "@id": "https://usagisan.info/contact_hotel/",
+            name: "ペットホテル予約フォーム｜うさぎペットホテル・うさぎカフェ【うさぎさん】｜ペットホテル",
+            description: "うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。｜ペットホテル予約フォーム",
+            url: "https://usagisan.info/contact_hotel/",
           },
           previousItem: "https://usagisan.info/#listItem",
         },
@@ -482,33 +459,33 @@ const jsonLd = {
     },
     {
       "@type": "Person",
-      "@id": "https://usagisan.info/toiawase/#person",
+      "@id": "https://usagisan.info/contact_hotel/#person",
     },
     {
       "@type": "WebPage",
-      "@id": "https://usagisan.info/toiawase/#webpage",
-      url: "https://usagisan.info/toiawase/",
-      name: "お問い合わせ｜うさぎペットホテル・うさぎカフェ【うさぎさん】｜ペットホテル",
-      description: "うさぎペットホテルをお探しなら【ウサギさん】のお問い合わせフォームです。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      "@id": "https://usagisan.info/contact_hotel/#webpage",
+      url: "https://usagisan.info/contact_hotel/",
+      name: "ペットホテル予約フォーム｜うさぎペットホテル・うさぎカフェ【うさぎさん】｜ペットホテル",
+      description: "うさぎペットホテル・うさぎカフェ【うさぎさん】のペットホテル予約フォームです。うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
       inLanguage: "ja",
       isPartOf: {
-        "@id": "https://usagisan.info/toiawase/#website",
+        "@id": "https://usagisan.info/contact_hotel/#website",
       },
       breadcrumb: {
-        "@id": "https://usagisan.info/toiawase/#breadcrumblist",
+        "@id": "https://usagisan.info/contact_hotel/#breadcrumblist",
       },
       datePublished: "2022-09-21T22:55:53+09:00",
       dateModified: "2023-01-17T3:00:07+09:00",
     },
     {
       "@type": "WebSite",
-      "@id": "https://usagisan.info/toiawase/#website",
-      url: "https://usagisan.info/toiawase/",
-      name: "お問い合わせ｜うさぎペットホテル・うさぎカフェ【うさぎさん】｜ペットホテル",
-      description: "うさぎペットホテルをお探しなら【ウサギさん】のお問い合わせフォームです。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
+      "@id": "https://usagisan.info/contact_hotel/#website",
+      url: "https://usagisan.info/contact_hotel/",
+      name: "ペットホテル予約フォーム｜うさぎペットホテル・うさぎカフェ【うさぎさん】｜ペットホテル",
+      description: "うさぎペットホテル・うさぎカフェ【うさぎさん】のペットホテル予約フォームです。うさぎペットホテルをお探しなら【ウサギさん】へお越しください。JR山手線鶯谷駅から５分の場所にあります。午前中からお預け可能で長期利用もOKで安心安全です。かわいいチンチラさんの販売もしております。",
       inLanguage: "ja",
       publisher: {
-        "@id": "https://usagisan.info/toiawase/#person",
+        "@id": "https://usagisan.info/contact_hotel/#person",
       },
     },
   ],
@@ -522,4 +499,4 @@ export const Head = () => (
   </>
 )
 
-export default Toiawase
+export default ContactHotel
