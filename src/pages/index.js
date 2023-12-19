@@ -23,10 +23,6 @@ const index = ({ data }) => {
       <LayoutNew imageName={imageName}>
         <div className="smp center">
           <p className="side_txt_top">
-            今月も全日程ご宿泊可能です。
-            <br />
-            年末年始も確実にご宿泊可能です。
-            <br />
             ご予定確定後、予約していただけると
             <br />
             有り難いです。
