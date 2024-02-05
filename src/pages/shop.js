@@ -37,7 +37,7 @@ const shop = () => {
               上記の情報サイトからお探しください。
             </div>
             <div className="shop_box">
-              電話番号 080-4383-7060/03-6240-6374
+              電話番号 080-4383-7060
               <br />
               メールアドレス info@usagisan.info
               <br />

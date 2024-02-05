@@ -170,8 +170,7 @@ const usagicafe = () => {
               <br />
               根岸ビル1階
               <br />
-            </span>
-            電話番号 <span itemProp="telephone">03-6240-6374</span>
+            </span>            
           </span>
           <br />
           携帯電話 080-4383-7060
