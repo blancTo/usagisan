@@ -42,11 +42,11 @@ const index = ({ data }) => {
 
         <div className="top_bn_list">
           <Link to="/contact_hotel/">
-            <StaticImage src="../images/hotel_contact_bn.jpg" alt="ペットホテルのお問い合わせ・ご予約はこちらから" />
+            <StaticImage src="../images/hotel_contact_bn.jpg" alt="ペットホテルのお問い合わせはこちら" />
           </Link>
 
           <Link to="/contact_cafe/">
-            <StaticImage src="../images/cafe_contact_bn.jpg" alt="ペットホテルのお問い合わせ・ご予約はこちらから" />
+            <StaticImage src="../images/cafe_contact_bn.jpg" alt="ふれあいひろばのお問い合わせはこちら" />
           </Link>
         </div>
 
