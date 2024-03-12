@@ -1478,3 +1478,17 @@ input:focus::placeholder,
 textarea:focus::placeholder {
   color: transparent;
 }
+
+.top_bn_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  @media not screen and (min-width: 767px) {
+    display: none;
+  }
+  a {
+    display: flex;
+    width: calc((100% - 5px * 1) / 2);
+    padding: 5px;
+  }
+}

@@ -23,6 +23,8 @@ const index = ({ data }) => {
       <LayoutNew imageName={imageName}>
         <div className="smp center">
           <p className="side_txt_top">
+            ゴールデンウイーク予約承ります。
+            <br />
             ご予定確定後、予約していただけると
             <br />
             有り難いです。
@@ -36,6 +38,16 @@ const index = ({ data }) => {
           <a href="tel:08043837060">
             <StaticImage src="../images/tel_btn.png" alt="お見積などのお問い合わせは携帯電話まで" />
           </a>
+        </div>
+
+        <div className="top_bn_list">
+          <Link to="/contact_hotel/">
+            <StaticImage src="../images/hotel_contact_bn.jpg" alt="ペットホテルのお問い合わせ・ご予約はこちらから" />
+          </Link>
+
+          <Link to="/contact_cafe/">
+            <StaticImage src="../images/cafe_contact_bn.jpg" alt="ペットホテルのお問い合わせ・ご予約はこちらから" />
+          </Link>
         </div>
 
         <h3>
